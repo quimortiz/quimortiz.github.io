@@ -3,8 +3,8 @@ title:       Joaquim Ortiz de Haro
 email:       your_email@example.com
 author:      Joaquim Ortiz de Haro 
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+baseurl:    
+url:         
 date_format: "%b %-d, %Y"
 header_pages:
  - research.md
