@@ -1,0 +1,90 @@
+---
+---
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="text-justify">
+    {{reference}}
+</div>
+
+{% if entry.note %}
+<div>
+    <em>{{ entry.note }}</em>
+</div>
+{% endif %}
+
+<div>
+    {% if entry.pdf %}
+    <span  style="margin-right:0.5rem" ><a href="{{ entry.pdf }}">PDF</a></span>
+    {% endif %}
+
+    {% if link %}
+      <span  style="margin-right:0.5rem" > 
+    <a href="{{link}}">PDF</a>
+      </span> 
+    {% endif %}
+
+
+    {% if entry.url %}
+    <span  style="margin-right:0.5rem"  ><a href="{{ entry.url }}">LINK</a></span>
+    {% endif %}
+
+    {% if entry.video %}
+    <span  style="margin-right:0.5rem"  ><a href="{{ entry.video }}">VIDEO</a></span>
+    {% endif %}
+
+
+
+</div>
+
+<div>
+    {% if entry.abstract %}
+<details>
+  <summary>Abstract</summary>
+  <p>{{ entry.abstract }}</p>
+</details>
+    {% endif %}
+</div>
+
+<div>
+<details>
+  <summary>Bibtex</summary>
+  <pre>{{ entry.bibtex }}</pre>
+</details>
+</div>
+<br>
+
+
+
