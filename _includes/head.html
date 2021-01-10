@@ -40,11 +40,51 @@
     {% endif %}
 
     <!-- MathJax -->
-    {% if site.enable_mathjax %}
+      <!--
     <script type="text/javascript" async
         src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    {% endif %}
+    -->
+
+
+    {% if site.enable_mathjax %}
+
+      <!-- Ref: https://quuxplusone.github.io/blog/2020/08/19/mathjax-v3-in-jekyll/ -->
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  },
+  chtml: {
+            scale: 1.0
+        },
+        svg: {
+            scale: 1.0
+        },
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      const Macro = MathJax._.input.tex.Symbol.Macro;
+      const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+      const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+      const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+      MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+    }
+  }
+};
+</script>
+
+
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+
+  {% endif %}
 
     <!-- Verifications -->
     {% if site.google_verification %}
