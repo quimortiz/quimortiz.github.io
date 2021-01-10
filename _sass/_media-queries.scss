@@ -9,7 +9,7 @@
   }
 
   .site-header {
-    text-align: left;
+    // text-align: left;
   }
 
   .site-nav {
@@ -22,11 +22,11 @@
 
   .site-header .site-title {
     font-size: $h3;
-    float: left;
+    // float: left;
   }
 
   .site-header .site-nav {
-    float: right;
+    // float: right;
     margin-top: .25rem;
   }
 
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: $viewport-large) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

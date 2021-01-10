@@ -41,6 +41,12 @@
   margin-left: $nav-link-padding-x;
 }
 
+.site-header .site-title:hover , 
+{
+  color: $nav-link-color;
+  border-bottom: $nav-link-border-bottom;
+}
+
 .site-header a:hover,
 .posts .post a:hover .post-meta,
 .posts .post a:hover .post-title,
