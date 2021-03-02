@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Research &#8211; Joaquim Ortiz de Haro</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Joaquim Ortiz de Haro, PhD Student Robotics">
+    <link rel="manifest" type="application/manifest+json; charset=utf-8" href="/manifest.json" />
+    <meta name="robots" content="all">
+    <meta name="author" content="Joaquim Ortiz de Haro">
+    
+    
+    <link rel="canonical" href="/Research/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Joaquim Ortiz de Haro" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202103020952" type="text/css">
+
+    <!-- Fonts -->
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+    
+
+    <!-- MathJax -->
+      <!--
+    <script type="text/javascript" async
+        src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    -->
+
+
+    
+
+      <!-- Ref: https://quuxplusone.github.io/blog/2020/08/19/mathjax-v3-in-jekyll/ -->
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  },
+  chtml: {
+            scale: 1.0
+        },
+        svg: {
+            scale: 1.0
+        },
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      const Macro = MathJax._.input.tex.Symbol.Macro;
+      const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+      const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+      const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+      MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+    }
+  }
+};
+</script>
+
+
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+
+  
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Research">
+    <meta property="og:description" content="Personal website of Joaquim Ortiz de Haro, PhD Student Robotics">
+    <meta property="og:url" content="/Research/">
+    <meta property="og:site_name" content="Joaquim Ortiz de Haro">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Research" />
+    <meta name="twitter:description" content="Personal website of Joaquim Ortiz de Haro, PhD Student Robotics" />
+    <meta name="twitter:url" content="/Research/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title">Joaquim Ortiz de Haro</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-active" href="/Research/">Research</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/blog/">Blog</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2">Research</h1>
+  </header>
+  <article class="post-content">
+  <h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="text-justify">
+    <span id="deharo2020learning">Ortiz de Haro, J., Hartmann, V. N., Oguz, O. S., &amp; Toussaint, M. (2020). <i>Learning Efficient Constraint Graph Sampling for Robotic Sequential Manipulation</i>.</span>
+</div>
+
+
+<div>
+    <em>Submitted to ICRA 2021, under review</em>
+</div>
+
+
+<div>
+    
+    <span style="margin-right:0.5rem"><a href="https://arxiv.org/abs/2011.04828">PDF</a></span>
+    
+
+    
+
+
+    
+
+    
+    <span style="margin-right:0.5rem"><a href="https://www.youtube.com/watch?v=xWAjBGACZhs&amp;feature=youtu.be">VIDEO</a></span>
+    
+
+
+
+</div>
+
+<div>
+    
+<details>
+  <summary>Abstract</summary>
+  <p>Efficient sampling from constraint manifolds, and thereby generating a diverse set of solutions of feasibility problems, is a fundamental challenge. We consider the case where a problem is factored, that is, the underlying nonlinear mathematical program is decomposed into differentiable equality and inequality constraints, each of which depends only on some variables. Such problems are at the core of efficient and robust sequential robot manipulation planning. Naive sequential conditional sampling of individual variables, as well as fully joint sampling of all variables at once (e.g., leveraging optimization methods), can be highly inefficient and non-robust. We propose a novel framework to learn how to break the overall problem into smaller sequential sampling problems. Specifically, we leverage Monte-Carlo Tree Search to learn which variable subsets should be assigned in which sequential order, in order to minimize the computation time to generate full samples. This strategy allows us to efficiently compute a set of diverse valid robot configurations for mode-switches within sequential manipulation tasks, which are waypoints for subsequent trajectory optimization or sampling-based motion planning algorithms. We show that the learning method quickly converges to the best sampling strategy for a given problem, and outperforms user-defined orderings and joint optimization, while also providing a higher sample diversity. Video: https://youtu.be/xWAjBGACZhs</p>
+</details>
+    
+</div>
+
+<div>
+<details>
+  <summary>Bibtex</summary>
+  <pre>@misc{deharo2020learning,
+  title = {Learning Efficient Constraint Graph Sampling for Robotic Sequential Manipulation},
+  author = {Ortiz de Haro, Joaquim and Hartmann, Valentin N. and Oguz, Ozgur S. and Toussaint, Marc},
+  year = {2020},
+  eprint = {2011.04828},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2011.04828},
+  video = {https://www.youtube.com/watch?v=xWAjBGACZhs&amp;feature=youtu.be},
+  note = {Submitted to ICRA 2021, under review}
+}
+</pre>
+</details>
+</div>
+<br />
+
+
+
+</li></ol>
+
+<h2 id="bachelor--master-thesis-and-research-reports">Bachelor / Master Thesis and Research reports</h2>
+
+<ol class="bibliography"><li><style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="text-justify">
+    <span id="ortiz2019proximal">Ortiz de Haro, J. (2019). <i>A proximal formulation of regularized optimal transport</i>. University Pompeu Fabra, Barcelona.</span>
+</div>
+
+
+<div>
+    <em>Research Report. Supervisor Gergely Neu</em>
+</div>
+
+
+<div>
+    
+
+    
+
+
+    
+
+    
+
+
+
+</div>
+
+<div>
+    
+</div>
+
+<div>
+<details>
+  <summary>Bibtex</summary>
+  <pre>@techreport{ortiz2019proximal,
+  title = {A proximal formulation of regularized optimal transport},
+  note = {Research Report. Supervisor Gergely Neu},
+  author = {Ortiz de Haro, Joaquim},
+  institution = {University Pompeu Fabra, Barcelona},
+  year = {2019},
+  month = aug
+}
+</pre>
+</details>
+</div>
+<br />
+
+
+
+</li>
+<li><style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="text-justify">
+    <span id="ortizdeharo:hal-02180282">Ortiz de Haro, J. (2019). <i>Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm</i>.</span>
+</div>
+
+
+<div>
+    <em>Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier</em>
+</div>
+
+
+<div>
+    
+    <span style="margin-right:0.5rem"><a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">PDF</a></span>
+    
+
+    
+
+
+    
+
+    
+
+
+
+</div>
+
+<div>
+    
+<details>
+  <summary>Abstract</summary>
+  <p>Legged robots do not require a flat and smooth surface to advance and have, therefore, thepotential to work in unstructured and complex environments. These robots, like humansand animals, can climb stairs and ladders and cross challenging terrain, which is essentialfor exploration and rescue applications.However, walking is a complex task. The robot movement must be a consequence of creat-ing contacts with the environment. Every time a new contact is made the dynamics becomediscontinuous. Also, legged robots are unstable and subject to many constraints, which re-stricts the potential movements. Finally, contact planning has a combinatorial structure: therobot chooses the optimal subset of contacts out of an infinite number of possible contactpoints.Trajectory optimization in robotics is often decoupled into two independent modules. Aproblem formulation, that models the robot motion and transforms it into a mathematicaloptimization problem, and the resolution of this optimization problem with a suitable op-timization solver. We rather envision this question as a two-way interaction between thetwo modules, that can not be considered separately. Indeed, the robotics problem formu-lation must also be a consequence of the understanding of the capabilities of the numericaloptimization algorithm.We propose a simultaneous trajectory and contact optimization with an augmented La-grangian algorithm. The contacts with the environment are modeled in a continuous waywith complementarity constraints. For example, the normal contact model is defined bytwo inequalities: positive force and distance to the surface, and a complementarity relation:either the force or the distance to the surface is zero.These constraints are added as path constraints in a continuous optimal control formula-tion. Using a direct collocation, the formulation is converted into a non-linear constrainedoptimization problem. Optimization problems with complementarity constraints have a de-generated and challenging structure and do not fulfil basic constraints qualifications usedby standard numerical solvers. Therefore, we propose to solve it using an augmented La-grangian algorithm, which offers a good behaviour under this type of constraints and canbe efficiently warmstarted.In this thesis we present our preliminary results with a robot manipulator interacting withthe environment. Optimizing simultaneously trajectory and contacts, we compute interest-ing motions such as multiple surface touching and pick and place tasks. We also outline ourfuture plans to generate walking motions with legged robots.</p>
+</details>
+    
+</div>
+
+<div>
+<details>
+  <summary>Bibtex</summary>
+  <pre>@misc{ortizdeharo:hal-02180282,
+  title = {Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm},
+  note = {Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier},
+  author = {Ortiz de Haro, Joaquim},
+  hal_local_reference = {Rapport LAAS n{\textdegree} 19208},
+  year = {2019},
+  month = feb,
+  pdf = {https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf},
+  hal_id = {hal-02180282},
+  hal_version = {v1}
+}
+</pre>
+</details>
+</div>
+<br />
+
+
+
+</li>
+<li><style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="text-justify">
+    <span id="ortiz2017parallel">Ortiz de Haro, J. (2017). <i>Parallel tracking and mapping algorithms for an event based camera</i>. Robotics Institute IRI and UPC.</span>
+</div>
+
+
+<div>
+    <em>Bachelor Thesis. Supervisor: Joan Sola</em>
+</div>
+
+
+<div>
+    
+    <span style="margin-right:0.5rem"><a href="https://upcommons.upc.edu/handle/2117/111945">PDF</a></span>
+    
+
+    
+
+
+    
+
+    
+
+
+
+</div>
+
+<div>
+    
+</div>
+
+<div>
+<details>
+  <summary>Bibtex</summary>
+  <pre>@techreport{ortiz2017parallel,
+  title = {Parallel tracking and mapping algorithms for an event based camera},
+  note = {Bachelor Thesis. Supervisor: Joan Sola},
+  institution = {Robotics Institute IRI and UPC},
+  author = {Ortiz de Haro, Joaquim},
+  pdf = {https://upcommons.upc.edu/handle/2117/111945},
+  year = {2017}
+}
+</pre>
+</details>
+</div>
+<br />
+
+
+
+</li></ol>
+
+  </article>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Build with <a href="https://jekyllrb.com/"> Jekyll </a>, based on  <a href="https://github.com/johnotander/pixyll">Pixyll</a>. Source code in <a href="https://github.com/johnotander/pixyll">GitHub</a>.
+    </small>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js")
+    }
+</script>
+
+</body>
+</html>
