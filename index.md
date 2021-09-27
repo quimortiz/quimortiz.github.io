@@ -4,7 +4,8 @@ layout: default
 
 Hello!
 
-I am Joaquim Ortiz de Haro, a PhD student in robotics and optimization at the University of Stuttgart / Berlin and the International Max-Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)). My advisor is [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/index.html) and our research group is called [Learning and Intelligent Systems](https://argmin.lis.tu-berlin.de/).
+I am Joaquim Ortiz de Haro, a PhD student in robotics and optimization at the Technical University of Berlin (TUB) and the International Max-Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)). My advisor is [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/index.html) inthe research group [Learning and Intelligent Systems](https://argmin.lis.tu-berlin.de/).
+
 {% comment %} [University of Stuttgart](https://www.uni-stuttgart.de/en/) {% endcomment %}
 
 I studied Mechanical Engineering (Bachelor) and Mathematics (Master) at the Polytechnic University of Catalonia (UPC, Barcelona). 
