@@ -3,6 +3,7 @@ layout:     post
 title:      A post with maths
 date:       2020-11-28 
 summary:    Beautiful maths in the post
+published: false
 ---
 
 
