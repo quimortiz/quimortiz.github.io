@@ -1,8 +1,8 @@
 # Site settings
-title:       Joaquim Ortiz de Haro
-email:       your_email@example.com
-author:      Joaquim Ortiz de Haro 
-description: "Personal website of Joaquim Ortiz de Haro, PhD Student Robotics"
+title:       Joaquim Ortiz-Haro
+email:       quimortiz21@gmail.com
+author:      Joaquim Ortiz-Haro 
+description: "Personal website of Joaquim Ortiz-Haro, PhD student in Robotics"
 baseurl:    
 url:         
 date_format: "%b %-d, %Y"
