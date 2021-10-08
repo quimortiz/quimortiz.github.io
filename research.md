@@ -4,7 +4,7 @@ title: Research
 permalink: /Research/
 ---
 
-See also [Google Scholar Profile](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao)
+See also my [Google Scholar Profile](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao)
 
 ## Preprints
 
