@@ -4,12 +4,22 @@ title: Research
 permalink: /Research/
 ---
 
+See also [Google Scholar Profile](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao)
+
+## Preprints
+
+{% bibliography --file preprints %}
+
 
 ## Publications
 
 {% bibliography --file references %}
 
 
-## Bachelor / Master Thesis and Research reports
+## Research Reports
+
+{% bibliography --file reports %}
+
+## Bachelor and Master Thesis 
 
 {% bibliography --file references-unpublished %}
