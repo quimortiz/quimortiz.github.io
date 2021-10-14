@@ -8,13 +8,13 @@ I am Joaquim Ortiz-Haro, a PhD student in robotics and optimization at the Techn
 
 {% comment %} [University of Stuttgart](https://www.uni-stuttgart.de/en/) {% endcomment %}
 
-I studied Mechanical Engineering (Bachelor) and Mathematics (Master) at the Polytechnic University of Catalonia (UPC, Barcelona). 
+I studied Mechanical Engineering (Bachelor) and Mathematics (Master) at the Polytechnic University of Catalonia ([UPC](https://www.upc.edu/en?set_language=en) , Barcelona). 
 
 Before starting the PhD, I worked in different projects ranging from theoretical machine learning and optimization to localization and mapping in robotics, in collaboration with Gergely Neu (UPF), Nicolas Mansard (LAAS-CNRS), Bharath Sankaran (Scaled Robotics) and Joan Sola (IRI). 
 
-<div style="text-align: center;">
-<img src="{{site.url}}/images/20210103_170909.jpeg" style="width: 40%;">
-</div>
+<!-- <div style="text-align: center;"> -->
+<!-- <img src="{{site.url}}/images/20210103_170909.jpeg" style="width: 40%;"> -->
+<!-- </div> -->
 
 My CV is [here]({{ site.url }}/assets/cv.pdf)
 
