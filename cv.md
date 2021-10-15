@@ -8,19 +8,19 @@ permalink: /CV/
   {% include jekyll-cv/header.html %}
   <div class="container-block">
     <div class="sidebar">
-      {% include _cv_contact.html %}
-      {% include _cv_languages.html %}
-      {% include _cv_education.html %}
-      {% include _cv_skills.html %}
-      {% include _cv_fork.html %}
+      {% include jekyll-cv/contact.html %}
+      {% include jekyll-cv/languages.html %}
+      {% include jekyll-cv/education.html %}
+      {% include jekyll-cv/skills.html %}
+      {% include jekyll-cv/fork.html %}
     </div>
 
     <div class="main">
-      {% include _cv_career-profile.html %}
-      {% include _cv_experience.html %}
-      {% include _cv_publications.html %}
-      {% include _cv_projects.html %}
-      {% include _cv_volunteering.html %}
+      {% include jekyll-cv/career-profile.html %}
+      {% include jekyll-cv/experience.html %}
+      {% include jekyll-cv/publications.html %}
+      {% include jekyll-cv/projects.html %}
+      {% include jekyll-cv/volunteering.html %}
     </div>
   </div>
 </div>
