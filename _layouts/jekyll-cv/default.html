@@ -1,0 +1,33 @@
+{% assign data = site.data.data %}
+<!DOCTYPE html>
+<html lang="en">
+{% include jekyll-cv/head.html %}
+<body>
+  <div>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{'/css/pixyll.css' | absolute_url}}">
+   <header class="site-header px2 px-responsive">
+   <div class="mt2 wrap">
+    <div class="measure", style="text-align: center">
+      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% include navigation.html %}
+      </nav>
+      <div class="clearfix"></div>
+      {% if site.show_social_icons %}
+        {% include social_links.html %}
+      {% endif %}
+    </div>
+  </div>
+</header>
+
+
+
+</div>
+    {{content}}
+</body>
+{% include jekyll-cv/scripts.html %}
+</html>
