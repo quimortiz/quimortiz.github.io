@@ -16,11 +16,10 @@ Before starting the PhD, I worked in different projects ranging from theoretical
 <!-- <img src="{{site.url}}/images/20210103_170909.jpeg" style="width: 40%;"> -->
 <!-- </div> -->
 
-My CV is [here]({{ site.url }}/assets/cv.pdf)
 
-Contact Information: 
+See my [Blog]({{ site.baseurl }}/blog/index.html), [Research]({{ site.baseurl }}{% link research.md %}) and [CV]({{ site.baseurl }}{% link cv.md %}).
 
-quimortiz21 (at) gmail (dot) com 
+Contact: quimortiz21 (at) gmail (dot) com
 
-joaquim (dot) ortiz (at) ipvs (dot) uni-stuttgart (dot) de
+
 
