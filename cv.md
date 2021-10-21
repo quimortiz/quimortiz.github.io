@@ -20,7 +20,7 @@ permalink: /CV/
       {% include jekyll-cv/experience.html %}
       {% include jekyll-cv/publications.html %}
       {% include jekyll-cv/projects.html %}
-      {% include jekyll-cv/volunteering.html %}
+      <!-- {% include jekyll-cv/volunteering.html %} -->
     </div>
   </div>
 </div>

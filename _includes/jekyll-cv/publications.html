@@ -1,7 +1,11 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="publications">
-    <h2 class="title">Publications</h2>
+    <h2 class="title">Selected Publications</h2>
+    <p>
+    <a href="{{ site.baseurl }}{% link research.md %}">Full list</a> of publications. 
+    <a href="https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao"> Google scholar profile </a>
+    </p>
     <div class="publication-items">
         {% for pub in publications%}
             <div class="publication-item">
