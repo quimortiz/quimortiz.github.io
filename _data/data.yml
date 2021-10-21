@@ -41,68 +41,68 @@ skills:
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Passionate about research, problem solving and learning. Experience in interdisciplinary and international teams. Compromise, honesty and hardwork. I love teaching and transmitting my knowledge.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+
+
+  - role: PhD Student
+    time: Sep 2019 - Present
+    company: International Max Planck Research School for Intelligent Systems (IMPRS-IS), TU-Berlin
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+       Robotics and Optimization
+       Supervisor: Marc Toussaint
+
+  - role: Graduate Student Researcher
+    time: Mar 2019 - Jul 2019
+    company: Universitat Pompeu Fabra, Barcelona
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Artifical Intelligence and Machine Learning Research Group of UPF. 
+      Working with Optimal Transport in Machine Learning and Statistics (computing distances between probability measures). 
+      Supervisor: Gergely Neu.
+
+  - role: Graduate Research Assistant
+    company: UPF
+    time: Sep 2018 - Feb 2019
+    details: |
+      Working at the interface of numerical optimization, optimal control and robotics.
+      Master Thesis Simultaneous trajectory and contact optimization with an augmented Lagrangian Algortihm. 
+      Supervisors: Nicolas Mansard, Justin Carpentier.
+
+  - role: Robotics Engineer Intern
+    company: Scaled Robotics, Barcelona
+    time: Jan 2018 – Jul 2018
+    details: | 
+      Geometric and semantic analysis of 3D Point Clouds in robotics start-up.
+
+  - role: Undergraduate Research Assistant
+    company: IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC
+    time: Feb 2017 – Nov 2017
+    details: |
+      Working on localisation and mapping (SLAM).
+      Bachelor Thesis Parallel Tracking and Mapping Algorithms for an Event Based Camera. 
+      Supervisor Joan Solà
+
+
+  - role: Teacher Assistant
+    company: Universitat Politècnica de Catalunya
+    time: Feb 2015 – Jul 2017
+    details: |
+      Teaching mathematics to first year university students. 
+      Classes with big groups (around 20 students) in the blackboard. 
+
+
 
 publications:
-  - title: Random title of paper. An interesting one.
+  - title: Learning Efficient Constraint Graph Sampling for Robotic Sequential Manipulation
     link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+    authors: Joaquim Ortiz-Haro, Valentin Noah Hartmann, Ozgur S. Oguz, Marc Toussaint
+    conference: Proc. of the IEEE International Conference on Robotics and Automation (ICRA), 2021
 
-  - title: Second title of paper. An interesting one too.
+  - title: Structured deep generative models for sampling on constraint manifolds in sequential manipulation
     link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+    authors: Joaquim Ortiz-Haro, Jung-Su Ha, Danny Driess, Marc Toussaint
+    conference: 5th Annual Conference on Robot Learning (CORL), 2021
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
