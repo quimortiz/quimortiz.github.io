@@ -19,4 +19,25 @@
   author={Ortiz de Haro, Joaquim},
   pdf ={https://upcommons.upc.edu/handle/2117/111945},
   year={2017},
+  abstract={
+An event camera has independent pixels that sends information, called “events” 
+when they perceive a local change of brightness. The information is transmitted 
+asynchronously exactly when the change occurs, with a microsecond resolution, 
+making this sensor suitable for fast robotics applications.  
+We present two new tracking and mapping algorithms, designed to work in 
+parallel to estimate the 6 DOF (Degrees Of Freedom) trajectory and the structure 
+of the scene in line based environments.  
+The tracking thread is based on a Landmark Based map and an asynchronous EKF 
+(Extended Kalman Filter) filter to estimate event per event the state of the camera 
+unlocking the true potential of the camera.  
+Inside the mapping thread, a line extraction algorithm has been designed to find 
+3D segments in the Point cloud, computed using event – ray tracing into a 
+discretized world.  
+Both algorithms have been built from scratch, and at this moment, only tested 
+independently in simulation.  
+We have obtained very good results on three synthetic self-made datasets.  
+Some pieces of the complete Parallel Tracking and Mapping system are still 
+missing. The current good work and results encourages to improve and finish the 
+algorithm to achieve the implementation on the real event based camera.
+            }
 }
