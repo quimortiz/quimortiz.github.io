@@ -22,4 +22,4 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 
 ## Bachelor and Master Thesis 
 
-{% bibliography --file references-unpublished %}
+{% bibliography --file bachelor-master %}
