@@ -10,7 +10,8 @@
             @include body-text;
             font-weight: bold;
             .time {
-                float: right;
+                // float: right;
+                display: block;
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
             }

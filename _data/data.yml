@@ -51,8 +51,8 @@ experience:
     time: Sep 2019 - Present
     company: International Max Planck Research School (IMPRS-IS), TU-Berlin
     details: |
-       Robotics and Optimization
-       Supervisor: Marc Toussaint
+       Research: Efficient Sampling for Robotic Sequential Manipulation.
+       Nonlinear optimization and learning. Supervisor: Marc Toussaint
 
   - role: Graduate Student Researcher
     time: Mar 2019 - Jul 2019
@@ -63,7 +63,7 @@ experience:
       Supervisor: Gergely Neu.
 
   - role: Graduate Research Assistant
-    company: UPF
+    company: LAAS-CNRS
     time: Sep 2018 - Feb 2019
     details: |
       Working at the interface of numerical optimization, optimal control and robotics.
