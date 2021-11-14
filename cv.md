@@ -9,9 +9,9 @@ permalink: /CV/
   <div class="container-block">
     <div class="sidebar">
       {% include jekyll-cv/contact.html %}
-      {% include jekyll-cv/languages.html %}
       {% include jekyll-cv/education.html %}
       {% include jekyll-cv/skills.html %}
+      {% include jekyll-cv/languages.html %}
       {% include jekyll-cv/fork.html %}
     </div>
 

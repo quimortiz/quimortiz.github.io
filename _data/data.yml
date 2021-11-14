@@ -19,14 +19,15 @@ languages:
   - idiom: French
 
 education:
+  - degree: PhD Robotics
+    time: 2019-ongoing
+    university: TU-Berlin, IMPRS-IS
   - degree: MSc Mathematics
     time: 2017-2019
     university: UPC 
-
   - degree: BSc Mechanical Engineering
     time: 2013-2017
     university: UPC 
-
 skills:
   - category: Research
     skill: 

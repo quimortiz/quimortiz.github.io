@@ -1,10 +1,10 @@
 .education {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     .title {
         @include sub-header;
     }
     .education-item {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         .degree {
             @include body-text;
             font-weight: bold;
