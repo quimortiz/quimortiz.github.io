@@ -50,24 +50,25 @@ experience:
 
   - role: PhD Student
     time: Sep 2019 - Present
-    company: International Max Planck Research School (IMPRS-IS), TU-Berlin
+    company: International Max Planck Research School (IMPRS-IS) and TU-Berlin
     details: |
-       Research: Efficient Sampling for Robotic Sequential Manipulation.
-       Nonlinear optimization and learning. Supervisor: Marc Toussaint
+       Nonlinear optimization and learning for robotics. 
+       Tentative thesis title: Efficient Sampling for Robotic Sequential Manipulation.
+       Supervisor: Marc Toussaint
 
   - role: Graduate Student Researcher
     time: Mar 2019 - Jul 2019
     company: Universitat Pompeu Fabra, Barcelona
     details: |
-      Artifical Intelligence and Machine Learning Research Group of UPF. 
-      Working with Optimal Transport in Machine Learning and Statistics (computing distances between probability measures). 
+      Optimal Transport in Machine Learning and Statistics.
+      Research Report: A proximal formulation of regularized optimal transport.
       Supervisor: Gergely Neu.
 
   - role: Graduate Research Assistant
     company: LAAS-CNRS
     time: Sep 2018 - Feb 2019
     details: |
-      Working at the interface of numerical optimization, optimal control and robotics.
+      Interface of numerical optimization, optimal control for robotics.
       Master Thesis Simultaneous trajectory and contact optimization with an augmented Lagrangian Algortihm. 
       Supervisors: Nicolas Mansard, Justin Carpentier.
 
@@ -81,9 +82,9 @@ experience:
     company: IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC
     time: Feb 2017 – Nov 2017
     details: |
-      Working on localisation and mapping (SLAM).
-      Bachelor Thesis Parallel Tracking and Mapping Algorithms for an Event Based Camera. 
-      Supervisor Joan Solà
+      Simulateneous localisation and mapping (SLAM).
+      Bachelor Thesis: Parallel Tracking and Mapping Algorithms for an Event Based Camera. 
+      Supervisor: Joan Solà
 
 
   - role: Teacher Assistant
