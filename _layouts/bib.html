@@ -1,6 +1,19 @@
 ---
 ---
 
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
 <style>
 details > summary {
   padding: .5em .75em;
@@ -28,8 +41,20 @@ details > pre {
 }
 
 
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
 
-
+button:hover {
+  color: #0076df
+}
 
 
 </style>
@@ -47,19 +72,19 @@ details > pre {
 
 <div>
     {% if entry.pdf %}
-    <span  style="margin-right:0.5rem" >[<a href="{{ entry.pdf }}">PDF</a>]</span>
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="{{ entry.pdf }}">PDF</a>
+    <!-- </span> -->
     {% endif %}
 
     {% if entry.poster %}
-    <span  style="margin-right:0.5rem" >[<a href="{{ entry.poster }}">POSTER</a>]</span>
+    <!-- <span  style="margin-right:0.5rem" > -->
+      | <a href="{{ entry.poster }}">POSTER</a>
+    <!-- </span> -->
     {% endif %}
 
-
-
     {% if entry.link %}
-      <span  style="margin-right:0.5rem" > 
-    <a href="{{link}}">PDF</a>
-      </span> 
+      <span  style="margin-right:0.5rem" ><a href="{{link}}">PDF</a></span> 
     {% endif %}
 
 
@@ -68,32 +93,61 @@ details > pre {
     {% endif %}
 
     {% if entry.video %}
-    <span  style="margin-right:0.5rem"  ><a href="{{ entry.video }}">VIDEO</a></span>
+    <!-- <span  style="margin-right:0.5rem"  > -->
+      <a href="{{ entry.video }}">VIDEO</a>
+    <!-- </span> -->
     {% endif %}
 
     {% if entry.youtube %}
-    <span  style="margin-right:0.5rem"  >[<a href=
-"https://www.youtube.com/watch?v={{ entry.youtube }}">VIDEO</a>]</span>
+    <span  style="margin-right:0.5rem">| <a href=
+"https://www.youtube.com/watch?v={{ entry.youtube }}">VIDEO</a></span>
     {% endif %}
 
 
-</div>
+{% if entry.abstract %} 
+| <button onclick="myFunction('{{entry.key}}_abstract')">ABSTRACT</button>
+{% endif %} 
+| <button onclick="myFunction('{{entry.key}}_bibtex')">BIBTEX</button>
 
-<div>
-    {% if entry.abstract %}
-<details>
-  <summary>Abstract</summary>
+{% if entry.abstract %} 
+<div id="{{entry.key}}_abstract" style="display: none">
   <p>{{ entry.abstract }}</p>
-</details>
-    {% endif %}
+</div>
+{% endif %} 
+
+
+<div id="{{entry.key}}_bibtex" style="display: none">
+  <pre>{{ entry.bibtex }}</pre>
 </div>
 
-<div>
-<details>
-  <summary>Bibtex</summary>
-  <pre>{{ entry.bibtex }}</pre>
-</details>
+
+
+
+
+
+
+
+
 </div>
+
+<!-- <div> -->
+<!--     {% if entry.abstract %} -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>{{ entry.abstract }}</p> -->
+<!-- </details> -->
+<!--     {% endif %} -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>{{ entry.bibtex }}</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
 <br>
 
 
