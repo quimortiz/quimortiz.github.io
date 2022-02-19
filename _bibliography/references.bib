@@ -1,16 +1,17 @@
-@inproceedings{21-ortiz-ICRA,
-  title = {Learning Efficient Constraint Graph Sampling for Robotic
-  		  Sequential Manipulation},
-  author = {Ortiz-Haro, Joaquim and Hartmann, Valentin N. and Oguz, Ozgur S. and Toussaint, Marc},
-      PDF = {https://arxiv.org/abs/2011.04828},
-  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Robotics and
-  		  Automation (ICRA)},
-  year = {2021},
-  youtube = {mCNdvjTbHNI},
-  abstract = {
-Efficient sampling from constraint manifolds, and thereby generating a diverse set of solutions for feasibility problems, is a fundamental challenge. We consider the case where a problem is factored, that is, the underlying nonlinear program is decomposed into differentiable equality and inequality constraints, each of which depends only on some variables. Such problems are at the core of efficient and robust sequential robot manipulation planning. Naive sequential conditional sampling of individual variables, as well as fully joint sampling of all variables at once (e.g., leveraging optimization methods), can be highly inefficient and non-robust. We propose a novel framework to learn how to break the overall problem into smaller sequential sampling problems. Specifically, we leverage Monte-Carlo Tree Search to learn assignment orders for the variable-subsets, in order to minimize the computation time to generate feasible full samples. This strategy allows us to efficiently compute a set of diverse valid robot configurations for mode-switches within sequential manipulation tasks, which are waypoints for subsequent trajectory optimization or sampling-based motion planning algorithms. We show that the learning method quickly converges to the best sampling strategy for a given problem, and outperforms user-defined orderings or fully joint optimization, while providing a higher sample diversity. 
-              }
+
+
+
+@inproceedings{ortiz2022conflict,
+  title={Conflict-Directed Diverse Planning for Logic-Geometric Programming},
+  author={Ortiz-Haro, Joaquim and Ha, Jung-Su and Driess, Danny and Toussaint, Marc},
+  author={Ortiz-Haro, Joaquim and Karpas, Erez, and Katz, Michael and Toussaint, Marc},
+  booktitle={To appear in International Conference on Automated Planning and Scheduling (ICAPS)},
+  year={2022},
+  abstract={Robots operating in the real world must combine task planning for reasoning about what to do with motion planning for reasoning about how to do it -- this is known as task and motion planning. One promising approach for task and motion planning is Logic Geometric Programming (LGP) which integrates a logical layer and a geometric layer in an optimization formulation. The logical layer describes feasible high-level actions at an abstract symbolic level, while the geometric layer uses continuous optimization methods to reason about motion trajectories with geometric constraints. 
+In this paper we propose a new approach for solving task and motion planning problems in the LGP formulation, that leverages state-of-the-art diverse planning at the logical layer to explore the space of feasible logical plans, and minimizes the number of optimization problems to be solved on the continuous geometric layer.
+To this end, geometric infeasibility is fed back into planning by identifying prefix conflicts and incorporating this back into the planner through a novel multi-prefix forbidding compilation. We further leverage diverse planning with a new novelty criteria for selecting candidate plans based on the prefix novelty, and a metareasoning approach which attempts to extract only useful conflicts by leveraging the information that is gathered in the course of solving the given problem.}
 }
+
 
 @inproceedings{ortiz2021structured,
   title={Structured deep generative models for sampling on constraint manifolds in sequential manipulation},
@@ -29,6 +30,19 @@ Experimental results demonstrate that our deep generative model produces diverse
 }
 
 
+@inproceedings{21-ortiz-ICRA,
+  title = {Learning Efficient Constraint Graph Sampling for Robotic
+  		  Sequential Manipulation},
+  author = {Ortiz-Haro, Joaquim and Hartmann, Valentin N. and Oguz, Ozgur S. and Toussaint, Marc},
+      PDF = {https://arxiv.org/abs/2011.04828},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Robotics and
+  		  Automation (ICRA)},
+  year = {2021},
+  youtube = {mCNdvjTbHNI},
+  abstract = {
+Efficient sampling from constraint manifolds, and thereby generating a diverse set of solutions for feasibility problems, is a fundamental challenge. We consider the case where a problem is factored, that is, the underlying nonlinear program is decomposed into differentiable equality and inequality constraints, each of which depends only on some variables. Such problems are at the core of efficient and robust sequential robot manipulation planning. Naive sequential conditional sampling of individual variables, as well as fully joint sampling of all variables at once (e.g., leveraging optimization methods), can be highly inefficient and non-robust. We propose a novel framework to learn how to break the overall problem into smaller sequential sampling problems. Specifically, we leverage Monte-Carlo Tree Search to learn assignment orders for the variable-subsets, in order to minimize the computation time to generate feasible full samples. This strategy allows us to efficiently compute a set of diverse valid robot configurations for mode-switches within sequential manipulation tasks, which are waypoints for subsequent trajectory optimization or sampling-based motion planning algorithms. We show that the learning method quickly converges to the best sampling strategy for a given problem, and outperforms user-defined orderings or fully joint optimization, while providing a higher sample diversity. 
+              }
+}
 
 
 

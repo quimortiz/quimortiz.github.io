@@ -94,13 +94,14 @@ button:hover {
 
     {% if entry.video %}
     <!-- <span  style="margin-right:0.5rem"  > -->
-      <a href="{{ entry.video }}">VIDEO</a>
+      | <a href="{{ entry.video }}">VIDEO</a>
     <!-- </span> -->
     {% endif %}
 
     {% if entry.youtube %}
-    <span  style="margin-right:0.5rem">| <a href=
-"https://www.youtube.com/watch?v={{ entry.youtube }}">VIDEO</a></span>
+    <!-- <span  style="margin-right:0.5rem"> -->
+           | <a href="https://www.youtube.com/watch?v={{ entry.youtube }}">VIDEO</a>
+    <!-- </span> -->
     {% endif %}
 
 
