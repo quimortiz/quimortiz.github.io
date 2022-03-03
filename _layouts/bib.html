@@ -105,6 +105,14 @@ button:hover {
     {% endif %}
 
 
+    {% if entry.webpage %}
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="{{ entry.webpage }}">WEBPAGE</a>
+    <!-- </span> -->
+    {% endif %}
+
+
+
 {% if entry.abstract %} 
 | <button onclick="myFunction('{{entry.key}}_abstract')">ABSTRACT</button>
 {% endif %} 
