@@ -1,6 +1,6 @@
 ---
 ---
-
+<style>ol.bibliography li { list-style: none }</style>
 
 <script>
 function myFunction(input) {
@@ -56,13 +56,28 @@ button:hover {
   color: #0076df
 }
 
+.title {
+  font-weight: bold;
+}
+
+
+
 
 </style>
 
 
-<div class="text-justify">
-    {{reference}}
-</div>
+<!-- <div class="text-justify"> -->
+<!--     {{reference}} -->
+<!-- </div> -->
+
+<!-- title --> 
+<div class="title">  {{ entry.title }}</div>
+<!-- authors --> {% for author in entry.author_array %}{% if forloop.length == 1 %}{{author.first}} {{author.last}}, {% else %}{% unless forloop.last %}{{author.first}} {{author.last}}, {% else %}and {{author.first}} {{author.last}}. {% endunless %}{% endif %} {% endfor %}
+
+<!-- how published --> {% if entry.howpublished %} {{entry.howpublished}}, {% endif %} {% if entry.booktitle %} In {{entry.booktitle}}, {% endif %} {% if entry.journal %} <i>{{entry.journal}}</i>, {% endif %} {% if entry.volume %} {{entry.volume}}, {% endif %} {% if entry.pages %} p. {{entry.pages}}, {% endif %} {% if entry.publisher %} {{entry.publisher}}, {% endif %} {% if entry.note %} {{entry.note}}, {% endif %} {{entry.year}}. 
+
+
+
 
 {% if entry.note %}
 <div>
