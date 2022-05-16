@@ -31,14 +31,15 @@ education:
 skills:
   - category: Research
     skill: 
-      - Robotics
+      - Robotics (Motion Planning, Task and Motion Planning, Optimal Control)
       - Nonlinear Optimization
-      - Deep Learning
+      - Deep Learning (Supervised Learning, Generative Models)
   - category: Programming
     skill:
-      - C++
-      - Python
+      - C++ (Robotics Research)
+      - Python (Numpy, Pytorch)
       - Matlab
+      - Latex
 
 # Profile
 profile: |
