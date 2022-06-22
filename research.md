@@ -53,10 +53,46 @@ Philip Oedi. Co-supervision: Joaquim Ortiz-Haro and Jung-Su Ha. Master Thesis Co
 </li>
 <br>
 
-
 </ol>
 
+## Teaching
 
+<ol class="bibliography">
+
+<li>
+<div class="title">AI & Robotics: Lab Course</div>
+M.Sc. Computer Science TU-Berlin.
+Teacher Assitant. 
+Summer Semester 2022.
+</li>
+<br>
+
+
+<li>
+<div class="title"> Optimization Algorithms</div>
+M.Sc. Computer Science TU-Berlin.
+Teacher Assistant.
+Winter Semester 2020 and 2021.
+</li>
+<br>
+
+
+<li>
+<div class="title"> Calculus II</div>
+B.Sc. Industrial (mechanical) Engineering. UPC Barcelona (ETSEIB). Teacher in Aula LLiure. 
+Summer Semester 2015, 2016 and 2017.
+</li>
+<br>
+
+
+<li>
+<div class="title">Calculus I</div>
+B.Sc. Industrial (mechanical) Engineering. UPC Barcelona (ETSEIB). Teacher in Aula LLiure.
+Winter Semester 2015.
+</li>
+<br>
+
+</ol>
 
 
 
