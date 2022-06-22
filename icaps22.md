@@ -15,15 +15,15 @@ International Conference on Automated Planning and Scheduling (ICAPS) 2022
 **Paper:** <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/19811/19570">here</a>
 
 <div style="font-size:0">
-<img  src="/assets/icaps21-1.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-2.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-3.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-4.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-5.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-6.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-7.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-8.png" width="20%" height="auto" />
-<img  src="/assets/icaps21-9.png" width="20%" height="auto" />
+<img  src="/assets/icaps21-1.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-2.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-3.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-4.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-5.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-6.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-7.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-8.jpg" width="20%" height="auto" />
+<img  src="/assets/icaps21-9.jpg" width="20%" height="auto" />
 </div>
 
  
