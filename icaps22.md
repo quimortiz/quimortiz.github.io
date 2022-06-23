@@ -41,7 +41,7 @@ Robots operating in the real world must combine task planning for reasoning abou
 In this paper we propose a new approach for solving task and motion planning problems in the LGP formulation, that leverages state-of-the-art diverse planning at the logical layer to explore the space of feasible logical plans, and minimizes the number of optimization problems to be solved on the continuous geometric layer.
 To this end, geometric infeasibility is fed back into planning by identifying prefix conflicts and incorporating this back into the planner through a novel multi-prefix forbidding compilation. We further leverage diverse planning with a new novelty criteria for selecting candidate plans based on the prefix novelty, and a metareasoning approach which attempts to extract only useful conflicts by leveraging the information that is gathered in the course of solving the given problem.
 
-**Supplementary video:**
+**Supplementary video:**  <a href="http://www.youtube.com/embed/7Ev6zNbqdjo">here</a>
 
 <iframe width="300" height="300"  src="http://www.youtube.com/embed/7Ev6zNbqdjo" frameborder="0" allowfullscreen></iframe>
 <br>
