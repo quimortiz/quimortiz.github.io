@@ -70,13 +70,14 @@ font-weight: bold;
 }
 
 .experience .experience-item .company {
-color: #689d6a
+color: #7F8487
 }
 
 
-.experiance .experience-item .time {
-color: #427b58;
+.experience .experience-item .company .time {
+color: #000000;
 font-style: italic;
+float:right
 }
 
 .skills .title {

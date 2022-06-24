@@ -50,7 +50,7 @@ experience:
 
 
   - role: PhD Student
-    time: Sep 2019 - Present
+    time: Sep. 2019 - Present
     company: International Max Planck Research School (IMPRS-IS) and TU-Berlin
     details: |
        Nonlinear optimization and learning for robotics. 
@@ -58,7 +58,7 @@ experience:
        Supervisor: Marc Toussaint
 
   - role: Graduate Student Researcher
-    time: Mar 2019 - Jul 2019
+    time: Mar. 2019 - July 2019
     company: Universitat Pompeu Fabra, Barcelona
     details: |
       Optimal Transport in Machine Learning and Statistics.
@@ -67,7 +67,7 @@ experience:
 
   - role: Graduate Research Assistant
     company: LAAS-CNRS
-    time: Sep 2018 - Feb 2019
+    time: Sep. 2018 - Feb. 2019
     details: |
       Interface of numerical optimization, optimal control for robotics.
       Master Thesis Simultaneous trajectory and contact optimization with an augmented Lagrangian Algortihm. 
@@ -75,13 +75,13 @@ experience:
 
   - role: Robotics Engineer Intern
     company: Scaled Robotics, Barcelona
-    time: Jan 2018 – Jul 2018
+    time: Jan. 2018 – July 2018
     details: | 
       Geometric and semantic analysis of 3D Point Clouds in robotics start-up.
 
   - role: Undergraduate Research Assistant
     company: IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC
-    time: Feb 2017 – Nov 2017
+    time: Feb. 2017 – Nov. 2017
     details: |
       Simulateneous localisation and mapping (SLAM).
       Bachelor Thesis: Parallel Tracking and Mapping Algorithms for an Event Based Camera. 
@@ -90,7 +90,7 @@ experience:
 
   - role: Teacher Assistant
     company: Universitat Politècnica de Catalunya
-    time: Feb 2015 – Jul 2017
+    time: Feb. 2015 – July 2017
     details: |
       Teaching mathematics to first year university students. 
       Classes with big groups (around 20 students) in the blackboard. 
