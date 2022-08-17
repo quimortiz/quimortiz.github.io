@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<!-- <div style="text-align: center"> -->
-<!-- <img src="{{ site.baseurl }}/images/IMG_0819.JPG"  alt="drawing" width="20%"/> -->
-<!-- </div> -->
+
 
 Hello!
 
@@ -25,6 +23,11 @@ Before starting the PhD, I worked in different projects ranging from convex opti
 See my [Blog]({{ site.baseurl }}/blog/index.html), [Research]({{ site.baseurl }}{% link research.md %}) and [CV]({{ site.baseurl }}{% link cv.md %}).
 
 Contact: quimortiz21 (at) gmail (dot) com
+
+<div style="text-align: center">
+<img src="{{ site.baseurl }}/images/IMG_0667bw.jpg" alt="drawing" width="40%"/>
+</div>
+
 
 
 
