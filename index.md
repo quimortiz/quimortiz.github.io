@@ -24,7 +24,7 @@ See my [Research]({{ site.baseurl }}{% link research.md %}) and [CV]({{ site.bas
 
 
 
-Feel free to contact me if you are interested in collaborations or doing a MSc Thesis in our group (priority will be given to students enrolled at TU Berlin). I currently have several open MSc projects to combine nonlinear optimization/motion planning with supervised/reinforcement learning, with an application to robotics.
+Feel free to contact me if you are interested in collaborations or doing a MSc Thesis in our group (priority will be given to students enrolled at TU Berlin). I currently have several open MSc projects to combine nonlinear optimization/motion planning with supervised/reinforcement learning in robotics.
 
 Email: quimortiz21 (at) gmail (dot) com
 
