@@ -61,6 +61,20 @@ button:hover {
 }
 
 
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
 
 
 </style>
@@ -71,7 +85,20 @@ button:hover {
 <!-- </div> -->
 
 <!-- title --> 
-<div class="title">  {{ entry.title }}</div>
+<!-- <div class="title">  {{ entry.title }}</div> -->
+
+<div>
+
+<div class="title">  
+    {% if entry.pdf %}
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="{{ entry.pdf }}"> {{ entry.title }} </a>
+    <!-- </span> -->
+    {% else %}
+{{ entry.title }}
+    {% endif %}
+</div>
+
 <!-- authors --> {% for author in entry.author_array %}{% if forloop.length == 1 %}{{author.first}} {{author.last}}. {% else %}{% unless forloop.last %}{{author.first}} {{author.last}}, {% else %}and {{author.first}} {{author.last}}. {% endunless %}{% endif %} {% endfor %}
 
 <!-- how published --> {% if entry.howpublished %} {{entry.howpublished}}, {% endif %} {% if entry.booktitle %} {{entry.booktitle}}, {% endif %} {% if entry.journal %} <i>{{entry.journal}}</i>, {% endif %} {% if entry.volume %} {{entry.volume}}, {% endif %} {% if entry.pages %} p. {{entry.pages}}, {% endif %} {% if entry.publisher %} {{entry.publisher}}, {% endif %} {% if entry.note %} {{entry.note}}, {% endif %} {{entry.year}}. 
@@ -85,26 +112,17 @@ button:hover {
 </div>
 {% endif %}
 
-<div>
-    {% if entry.pdf %}
-    <!-- <span  style="margin-right:0.5rem" > -->
-      <a href="{{ entry.pdf }}">PDF</a>
-    <!-- </span> -->
-    {% endif %}
+<!-- <div> -->
+    <!-- {% if entry.pdf %} -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="{{ entry.pdf }}">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!-- {% endif %} -->
 
     {% if entry.poster %}
     <!-- <span  style="margin-right:0.5rem" > -->
       | <a href="{{ entry.poster }}">POSTER</a>
     <!-- </span> -->
-    {% endif %}
-
-    {% if entry.link %}
-      <span  style="margin-right:0.5rem" ><a href="{{link}}">PDF</a></span> 
-    {% endif %}
-
-
-    {% if entry.url %}
-    <span  style="margin-right:0.5rem"  ><a href="{{ entry.url }}">LINK</a></span>
     {% endif %}
 
     {% if entry.video %}
@@ -135,24 +153,25 @@ button:hover {
 
 {% if entry.abstract %} 
 <div id="{{entry.key}}_abstract" style="display: none">
-  <p>{{ entry.abstract }}</p>
+  <p class="extra">{{ entry.abstract }}</p>
 </div>
 {% endif %} 
 
 
 <div id="{{entry.key}}_bibtex" style="display: none">
-  <pre>{{ entry.bibtex }}</pre>
+  <pre class="gfg">{{ entry.bibtex }}</pre>
+</div>
+
+
+
+
 </div>
 
 
 
 
 
-
-
-
-
-</div>
+<!-- </div> -->
 
 <!-- <div> -->
 <!--     {% if entry.abstract %} -->

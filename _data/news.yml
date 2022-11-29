@@ -1,0 +1,37 @@
+news:
+  - what: I will spend one month visiting Technion. I had the oportunity to present my research at in the robotics seminar at technion.
+    when: 11/2022
+
+  - what: 4 Papers at IROS
+    when: 10/2022
+
+  - what: RAL paper
+    when: 06/2022
+
+  - what: Icaps 
+    when: 02/2022
+
+  - what: CorL First in-person conference<a href="https://openreview.net/pdf?id=CPbn4N3a2zC">here</a>
+    when: 10/2021
+
+  - what: Presented Robotics Seminar at LAAS-CNRS 
+    when: 10/2021
+
+  - what: First Paper accepted (ICRA 2022) <a href="https://arxiv.org/abs/2011.04828">here</a>
+    when: 01/2021
+
+  - what: I have started a PhD in robotics! IMPR-IS and Uni Stuttgart (my research group moved to TU-Berlin on March 2020)
+    when: 09/2019
+
+  - what: 5 months doing a research Internship on Optimal Transport (Convex optimization and Machine Learning). See my <a href="quimortiz.github.io/assets/ortiz2019proximal.pdf">report</a>.
+    when: 07/2019
+
+  - what: I finished my master <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">thesis</a> on numerical optimal control for legged robots.
+    when: 02/2019
+
+  - what: I spent the last 6 months working in <a href="https://scaledrobotics.com/">Scaled Robotics</a>
+    when: 07/2018
+
+  - what: I finished my bachelor <a href="https://upcommons.upc.edu/handle/2117/111945">thesis</a> about SLAM with event based cameras. 
+    when: 06/2017
+

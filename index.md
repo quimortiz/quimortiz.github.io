@@ -35,5 +35,22 @@ Email: quimortiz21 (at) gmail (dot) com
 </div>
 
 
+{% comment %} 
+
+## News
+
+{% assign news = site.data.news %}
+{% if news %}
+<ul>
+{% for new in news.news %}
+<li> {{new.what}} -- {{new.when}} </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+
+{% endcomment %}
+
+
 
 

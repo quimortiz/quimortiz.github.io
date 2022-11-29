@@ -10,11 +10,9 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 
 {% bibliography --file preprints %}
 
-
 ## Publications
 
 {% bibliography --file references %}
-
 
 ## Research Reports
 
@@ -23,6 +21,10 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 ## Bachelor and Master Thesis 
 
 {% bibliography --file bachelor-master %}
+
+## Workshop Papers
+
+{% bibliography --file workshop %}
 
 ## Student Supervision
 
