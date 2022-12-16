@@ -1,37 +1,37 @@
 news:
-  - what: I will spend one month visiting Technion. I had the oportunity to present my research at in the robotics seminar at technion.
+  - what: I spent one month visiting Erez Karpas at Technion (Israel). I gave a talk in the robotics seminar and met fellow robotics PhD students and faculty.
     when: 11/2022
 
-  - what: 4 Papers at IROS
+  - what: 4 Papers presented at IROS, thanks to all students and collaborators!
     when: 10/2022
 
-  - what: RAL paper
+  - what: Journal Paper accepted at IEEE-RAL. Check the project <a href="https://quimortiz.github.io/graphnlp/"> website</a>.
     when: 06/2022
 
-  - what: Icaps 
+  - what: <a href="https://openreview.net/pdf?id=CPbn4N3a2zC"> Conference Paper </a> accepted at ICAPS. Good opportunity to learn classical AI Planning with Erez Karpas and Michael Katz.
     when: 02/2022
 
-  - what: CorL First in-person conference<a href="https://openreview.net/pdf?id=CPbn4N3a2zC">here</a>
+  - what: Attending CoRL, my first in-person conference! Check out our <a href="https://openreview.net/pdf?id=CPbn4N3a2zC"> paper </a>.
     when: 10/2021
 
-  - what: Presented Robotics Seminar at LAAS-CNRS 
+  - what: Talk in the Robotics Seminar of Gepetto team at LAAS-CNRS.
     when: 10/2021
 
-  - what: First Paper accepted (ICRA 2022) <a href="https://arxiv.org/abs/2011.04828">here</a>
+  - what: <a href="https://arxiv.org/abs/2011.04828">First Paper accepted</a>. I will present at ICRA 2022.
     when: 01/2021
 
-  - what: I have started a PhD in robotics! IMPR-IS and Uni Stuttgart (my research group moved to TU-Berlin on March 2020)
+  - what: I have started a PhD in robotics at Uni-Stuttgart and IMPRS-IS, under the supervision of Marc Toussaint. Update - together with my advisor, we moved to TU-Berlin on March 2020.
     when: 09/2019
 
-  - what: 5 months doing a research Internship on Optimal Transport (Convex optimization and Machine Learning). See my <a href="quimortiz.github.io/assets/ortiz2019proximal.pdf">report</a>.
+  - what: I spent 5 months doing research about <a href="quimortiz.github.io/assets/ortiz2019proximal.pdf"> Optimal Transport and convex optimization</a>, UPF (Barcelona).
     when: 07/2019
 
-  - what: I finished my master <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">thesis</a> on numerical optimal control for legged robots.
+  - what: <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">Master thesis</a> about numerical optimal control for legged robots, LAAS-CNRS (Toulouse). I finished
     when: 02/2019
 
-  - what: I spent the last 6 months working in <a href="https://scaledrobotics.com/">Scaled Robotics</a>
+  - what: I spent the last 6 months working in the startup <a href="https://scaledrobotics.com/">Scaled Robotics</a>.
     when: 07/2018
 
-  - what: I finished my bachelor <a href="https://upcommons.upc.edu/handle/2117/111945">thesis</a> about SLAM with event based cameras. 
+  - what: <a href="https://upcommons.upc.edu/handle/2117/111945">Bachelor thesis</a> about SLAM with event based cameras,  IRI (Barcelona). I finished the Bachelor of Mechanical Engineering (ETSEIB, UPC, Barcelona) with top-honours.
     when: 06/2017
 

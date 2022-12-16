@@ -34,22 +34,35 @@ Email: quimortiz21 (at) gmail (dot) com
 <img src="{{ site.baseurl }}/images/IMG_0667bw.jpg" alt="drawing" width="40%"/>
 </div>
 
-
-{% comment %} 
-
 ## News
+
+
+<style>
+  .when { color: gray; }
+
+  .what { color: black ; }
+</style>
+
+
+
+
 
 {% assign news = site.data.news %}
 {% if news %}
-<ul>
+<ul style="list-style: none;">
 {% for new in news.news %}
-<li> {{new.what}} -- {{new.when}} </li>
+<li>
+<span  class="when"> {{new.when}} </span> <span  class="what"> {{new.what}} </span>
+</li>
 {% endfor %}
 </ul>
 {% endif %}
 
 
-{% endcomment %}
+
+
+
+
 
 
 
