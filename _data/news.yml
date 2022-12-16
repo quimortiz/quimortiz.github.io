@@ -26,12 +26,18 @@ news:
   - what: I spent 5 months doing research about <a href="quimortiz.github.io/assets/ortiz2019proximal.pdf"> Optimal Transport and convex optimization</a>, UPF (Barcelona).
     when: 07/2019
 
-  - what: <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">Master thesis</a> about numerical optimal control for legged robots, LAAS-CNRS (Toulouse). I finished
+  - what: Master of Mathematics at FME UPC (Barcelona).
+    when: 02/2019
+
+  - what: <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">Master thesis</a> about numerical optimal control for legged robots, LAAS-CNRS (Toulouse). 
     when: 02/2019
 
   - what: I spent the last 6 months working in the startup <a href="https://scaledrobotics.com/">Scaled Robotics</a>.
     when: 07/2018
 
-  - what: <a href="https://upcommons.upc.edu/handle/2117/111945">Bachelor thesis</a> about SLAM with event based cameras,  IRI (Barcelona). I finished the Bachelor of Mechanical Engineering (ETSEIB, UPC, Barcelona) with top-honours.
+  - what: Bachelor of Mechanical Engineering at ETSEIB UPC (Barcelona), graduated with top-class honours.
+    when: 06/2017
+
+  - what: <a href="https://upcommons.upc.edu/handle/2117/111945">Bachelor thesis</a> about SLAM with event based cameras,  IRI (Barcelona). 
     when: 06/2017
 

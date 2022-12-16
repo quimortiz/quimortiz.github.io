@@ -31,7 +31,7 @@ Email: quimortiz21 (at) gmail (dot) com
 
 
 <div style="text-align: center">
-<img src="{{ site.baseurl }}/images/IMG_0667bw.jpg" alt="drawing" width="40%"/>
+<img src="{{ site.baseurl }}/images/WhatsApp Image 2022-12-09 at 18.03.44_nologo.jpeg" alt="drawing" width="40%" style="border-radius:20px" />
 </div>
 
 ## News
@@ -40,7 +40,6 @@ Email: quimortiz21 (at) gmail (dot) com
 <style>
   .when { color: gray; }
 
-  .what { color: black ; }
 </style>
 
 
