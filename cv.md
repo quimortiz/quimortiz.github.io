@@ -110,10 +110,7 @@ font-size: .875em;
 
 </style>
 
-Last updated: December 2022
-
-Download PDF with complete CV <a href="/assets/cv.pdf">here</a> 
-
+Download PDF with complete CV <a href="/assets/cv.pdf">here</a>. Last updated: December 2022.
 
 ## Contact
 {% assign contact = site.data.data.contact %}

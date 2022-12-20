@@ -20,14 +20,14 @@ languages:
 
 education:
   - degree: PhD Robotics
-    time: 2019-ongoing
-    university: TU-Berlin, IMPRS-IS
+    time: 2019-Expected 2023
+    university: TU-Berlin (Germany), IMPRS-IS (Max Planck Research School)
   - degree: MSc Mathematics
     time: 2017-2019
-    university: UPC 
+    university: UPC (Polytechnic university Catalonia, Barcelona)
   - degree: BSc Mechanical Eng.
     time: 2013-2017
-    university: UPC 
+    university: UPC (Polytechnic university Catalonia, Barcelona)
 skills:
   - category: Research
     skill: 
@@ -98,10 +98,11 @@ experience:
 
 
 publications:
-  - title: Learning Efficient Constraint Graph Sampling for Robotic Sequential Manipulation
+
+  - title: Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving
     link: "#"
-    authors: Joaquim Ortiz-Haro, Valentin Noah Hartmann, Ozgur S. Oguz, Marc Toussaint
-    conference: Proc. of the IEEE International Conference on Robotics and Automation (ICRA), 2021
+    authors: J. Ortiz-Haro and E. Karpas and M. Katz and M. Toussaint
+    conference: IEEE Robotics and Automation Letters (RA-L), 2022
 
   - title: Structured deep generative models for sampling on constraint manifolds in sequential manipulation
     link: "#"
