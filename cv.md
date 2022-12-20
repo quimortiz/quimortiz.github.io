@@ -110,7 +110,7 @@ font-size: .875em;
 
 </style>
 
-Last updated: May 2022
+Last updated: December 2022
 
 Download PDF with complete CV <a href="/assets/cv.pdf">here</a> 
 
