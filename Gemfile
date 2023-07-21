@@ -10,3 +10,4 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem 'jekyll-scholar', group: :jekyll_plugins
 gem "kramdown-parser-gfm"
+gem 'jemoji'
