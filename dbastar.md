@@ -17,7 +17,7 @@ permalink: /idbastar/
 </style>
 
 
-[Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/) and [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
+[Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/), [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
 
 
 **Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
@@ -25,7 +25,7 @@ permalink: /idbastar/
 
 ## TL;DR
 
-Iterative Discontinuity Bounded A\* (iDb-A\*) is a new kinodynamic motion planner that combines search and optimization in an iterative way. It is asymptoticaly optimal and faster than state-of-the-art motion planners in a wide range of problems with car-like and flying robots.
+Iterative Discontinuity Bounded A\* (iDb-A\*) is a new kinodynamic motion planner that combines search and optimization in an iterative way. It is asymptotically optimal and faster than state-of-the-art motion planners in a wide range of problems with car-like and flying robots.
 
 ## Paper 
 
@@ -75,7 +75,7 @@ Compared to the state-of-the-art, iDb-A\* consistently solves more problem insta
 
 ## Results 
 
-We compare iDb-A* against SST* (sample-based optimal kynodynamic motion planner) and RRT* -TO (Combination of Assymptotically Optimal Geometric Planner with Trajectory Optimization). Check our paper 
+We compare iDb-A* against SST* (sample-based optimal kynodynamic motion planner) and RRT* -TO (Combination of Asymptotically Optimal Geometric Planner with Trajectory Optimization). Check our paper 
 for full results and discussion. These results can be reproduced using our code [Dynoplan](https://github.com/quimortiz/dynoplan)
 
 <img  src="/images/Screenshot from 2023-07-27 23-29-16.png"   class="center"/>
@@ -94,60 +94,24 @@ TODO
 Dynobench 🦖 is a universal benchmark for kinodynamic motion planning. Develop, combine and compare different methods, from trajectory optimization and sample based motion planning to supervised and reinforcement learning. We currently support 8 dynamical Systems, and a total of 43  problems! (more to come!)
 
 
-<!-- ## Dataset -->
-<!---->
-<!-- Motion primitives are available in Github and Google Drive  -->
+
+
+## Dynoplan :t-rex:
+
+Dynoplan is a small library for solving kinodynamic motion planning problems, as defined in Dynobench :t-rex:. It implements 3 different algorithms: Trajectory Optimization with geometric initial guess , Sample based Motion Planning, and Iterative Search and Optimization (iDb-A\*).
 
 
 
 
 
-
-
-<!-- Motions primitives -->
-
-
-
-
-<!-- Check our Benchmark in -->
-<!---->
-<!-- <div> -->
-<!--  <a href="https://github.com/quimortiz/dynobench"><img src = "{{ site.baseurl }}/images/github.svg" alt="My Happy SVG" style="max-width: 3%; height:auto;  vertical-align:middle   "></a> -->
-<!--   <span style=""> Dynobench :t-rex:</span> -->
-<!-- </div> -->
-<!---->
 
 
 ## Motion Primitives
 
-All the motion primitives are available in Google Drive (check instructions in [Dynobench](https://github.com/quimortiz/dynobench)
+All the motion primitives are available in Github and Google Drive (check instructions in [Dynobench](https://github.com/quimortiz/dynobench))
 
 <img  src="/images/primitives-quad2dpole.png"   class="center"/>
 <img  src="/images/primitives-unicycle1.png"  class="center"/>
 <img  src="/images/primitives-acrobot.png"  class="center"/>
 
 
-
-
-
-<!-- <img  src="/assets/example1.png" width="40%" height="auto" class="center"/> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---->
-<!-- <a href="{{ site.baseurl }}{% link research.md %}">here</a> -->
-<!---->
-<!---->
-<!---->
-<!-- **Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a> -->
