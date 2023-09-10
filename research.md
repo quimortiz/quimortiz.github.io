@@ -4,6 +4,18 @@ title: Research
 permalink: /Research/
 ---
 
+
+<style>
+
+ol.bibliography  {
+   text-indent: 0;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+</style>
+
+
 See also my [Google Scholar Profile](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao)
 
 ## Preprints
@@ -33,14 +45,14 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 <li>
 <div class="title">Efficient Kynodinamic Motion Planning with Reinforcement Learning Policies</div>
 Alexander Weingart. Co-supervision: Joaquim Ortiz-Haro and Wolfgang Hoenig. Master Thesis Computer Science (TU-Berlin).
-Ongoing.
+2023.
 </li>
 <br>
 
 <li>
 <div class="title">Neural Scene Representations for Sequential Reasoning  </div>
 Phillip Groete. Co-supervision: Joaquim Ortiz-Haro and Ozgur Oguz. Master Thesis Computer Science (TU-Berlin).
-Ongoing.
+2023.
 </li>
 <br>
 
