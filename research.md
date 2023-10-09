@@ -43,7 +43,7 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 <ol class="bibliography">
 
 <li>
-<div class="title">Efficient Kynodinamic Motion Planning with Reinforcement Learning Policies</div>
+<div class="title">Efficient Kinodynamic Motion Planning with Reinforcement Learning Policies</div>
 Alexander Weingart. Co-supervision: Joaquim Ortiz-Haro and Wolfgang Hoenig. Master Thesis Computer Science (TU-Berlin).
 2023.
 </li>
