@@ -17,7 +17,7 @@ permalink: /idbastar/
 </style>
 
 
-[Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/), [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
+[Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/), and [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
 
 
 **Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
@@ -30,7 +30,7 @@ Iterative Discontinuity Bounded A\* (iDb-A\*) is a new kinodynamic motion planne
 ## Paper 
 
  <a href="https://github.com/quimortiz/dynoplan"><img src = "{{ site.baseurl }}/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
-  <span style=""> Journal Version Preprint with Supplementary Material (submitted to IEEE Transactions on Robotics (T-RO) in August 2023) </span>
+  <span style=""> Journal Version Preprint with Supplementary Material (submitted to IEEE Transactions on Robotics (T-RO) in November 2023) </span>
 
 
  <a href="https://arxiv.org/abs/2203.11108"><img src = "{{ site.baseurl }}/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
@@ -55,6 +55,9 @@ Iterative Discontinuity Bounded A\* (iDb-A\*) is a new kinodynamic motion planne
 
 <img  src="/assets/dynobench.png"  class="center" style="width: 40%" />
 
+## Supplementary Video
+
+<iframe width="300" height="400" class="center"  src="https://www.youtube.com/embed/tGuPuihXSbg" frameborder="0" allowfullscreen></iframe>
 
 
 
