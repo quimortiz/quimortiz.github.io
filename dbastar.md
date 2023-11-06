@@ -113,7 +113,7 @@ for full results and discussion. These results can be reproduced using our code 
 
 ### Benchmark
 
-<img  src="/assets/merged_2023-11-06--09-57-24.tex.nice.tex.pdf-1.png" class="center"/>
+<img  src="/assets/merged_2023-11-06--21-03-18.tex.nice.tex.pdf-1.png" class="center"/>
 
 ### Trajectory Optimization with Free Terminal Time
 
