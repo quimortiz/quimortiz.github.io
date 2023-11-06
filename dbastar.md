@@ -76,19 +76,6 @@ We provide a benchmark of 43 problems with 8 different dynamical systems, includ
 Compared to the state-of-the-art, iDb-A\* consistently solves more problem instances and finds lower-cost solutions faster.
 
 
-## Results 
-
-We compare iDb-A* against SST* (sample-based optimal kynodynamic motion planner) and RRT* -TO (Combination of Asymptotically Optimal Geometric Planner with Trajectory Optimization). Check our paper 
-for full results and discussion. These results can be reproduced using our code [Dynoplan](https://github.com/quimortiz/dynoplan)
-
-<img  src="/images/Screenshot from 2023-07-27 23-29-16.png"   class="center"/>
-
-<img  src="/images/Screenshot from 2023-07-27 23-29-54.png"   class="center"/>
-
-
-## Short Video 
-
-TODO
 
 
 
@@ -116,5 +103,29 @@ All the motion primitives are available in Github and Google Drive (check instru
 <img  src="/images/primitives-quad2dpole.png"   class="center"/>
 <img  src="/images/primitives-unicycle1.png"  class="center"/>
 <img  src="/images/primitives-acrobot.png"  class="center"/>
+
+
+
+## Extended results 
+
+We compare iDb-A* against SST* (sample-based optimal kynodynamic motion planner) and RRT* -TO (Combination of Asymptotically Optimal Geometric Planner with Trajectory Optimization). Check our paper 
+for full results and discussion. These results can be reproduced using our code [Dynoplan](https://github.com/quimortiz/dynoplan)
+
+### Benchmark
+
+<img  src="/assets/merged_2023-11-06--09-57-24.tex.nice.tex.pdf-1.png" class="center"/>
+
+### Trajectory Optimization with Free Terminal Time
+
+<img  src="/assets/summary_timeopt_2023-11-06--09-50-56.tex.pdf-1.png" class="center"/>
+
+### Heuristic Functions
+
+<img  src="/assets/summary_search_2023-11-06--09-39-23.tex.pdf.png-1.png" class="center"/>
+
+
+
+
+
 
 
