@@ -1,4 +1,7 @@
 news:
+  - what: New journal submission! Fast and optimal kinodynamic motion planning with iterative search and trajectory optimization. <a href="https://arxiv.org/abs/2311.03553"> Preprint </a>,<a href="https://www.youtube.com/watch?v=tGuPuihXSbg"> video</a>, and <a href="https://github.com/quimortiz/dynoplan"> code</a>. 
+    when: 11/2023
+
   - what: Heading to ICRA 2023 to present our latest <a href="https://arxiv.org/abs/2210.12386"> work </a> in robotic manipulation planning!
     when: 05/2023
 

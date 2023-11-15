@@ -145,6 +145,12 @@ button:hover {
     <!-- </span> -->
     {% endif %}
 
+    {% if entry.code %}
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="{{ entry.code }}">CODE</a>
+    <!-- </span> -->
+    {% endif %}
+
 
 
 {% if entry.abstract %} 
