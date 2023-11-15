@@ -29,9 +29,8 @@ Iterative Discontinuity Bounded A\* (iDb-A\*) is a new kinodynamic motion planne
 
 ## Paper 
 
- <a href="https://github.com/quimortiz/dynoplan"><img src = "{{ site.baseurl }}/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
-  <span style=""> Journal Version Preprint with Supplementary Material (submitted to IEEE Transactions on Robotics (T-RO) in November 2023) </span>
-
+ <a href="https://arxiv.org/abs/2311.03553"><img src = "{{ site.baseurl }}/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
+  <span style=""> Journal Version -- Preprint submitted to IEEE Transactions on Robotics (T-RO) in November  2023 (Recommended)</span>
 
  <a href="https://arxiv.org/abs/2203.11108"><img src = "{{ site.baseurl }}/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
   <span style=""> Conference Paper (IROS 2022) </span>
