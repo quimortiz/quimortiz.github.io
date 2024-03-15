@@ -36,7 +36,7 @@ Under Construction!
 
 ## Supplementary Material for IROS Submission
 
-We have evaluated our new algorithms, iDB-RRT-F and iDB-RRT-C, against three state-of-the-art methods for kinodynamic motion planning. Due to space constraints, in the submitted paper we only report the median of the compute time and the cost across 20 runs of each algorithm. Here, we plot the compute time and cost using box plots, which provide a graphical representation of the variance of each algorithm. Results are available in the following <a href="/assets/merged_boxplots_2024-03-15.pdf">PDF</a>, where we display one plot per page.
+We have evaluated our new algorithms, iDB-RRT-F and iDB-RRT-C, against three state-of-the-art methods for kinodynamic motion planning. Due to space constraints, in the submitted paper we only report the median of the compute time and the cost across 20 runs of each algorithm. Here, we plot the compute time and cost using box plots, which provide a graphical representation of the variance of each algorithm. Results are available in the following <a href="/assets/merged_boxplots_2024-03-15.pdf">PDF</a>, where we display one problem per page.
 
 
 
