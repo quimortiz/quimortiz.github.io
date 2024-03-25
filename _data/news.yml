@@ -1,4 +1,11 @@
 news:
+
+  - what: Moved to New York to work as a postdoc researcher in the Machines in Motion Laboratory at New York University, led by Professor Ludovic Righetti.
+    when: 02/2024
+
+  - what: "I successfully defended my PhD and obtained the maximum qualification! Big thanks to my supervisor Marc Toussaint (TU Berlin) and the doctoral committee: Tomas Lozano-Perez (MIT), and Georg Martius (Uni Tübingen)."
+    when: 01/2024
+
   - what: New journal submission! Fast and optimal kinodynamic motion planning with iterative search and trajectory optimization. <a href="https://arxiv.org/abs/2311.03553"> Preprint </a>,<a href="https://www.youtube.com/watch?v=tGuPuihXSbg"> video</a>, and <a href="https://github.com/quimortiz/dynoplan"> code</a>. 
     when: 11/2023
 

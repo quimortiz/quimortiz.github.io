@@ -24,15 +24,25 @@ permalink: /idbrrt/
 
 **Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
 
+<a href="https://arxiv.org/abs/2403.10745"> Preprint</a>
 
-Preprint: Comming Soon!
-
-Code: Comming Soon
-
+Code: <a href= "https://github.com/quimortiz/dynoplan"> Dynoplan</a> <a href= "https://github.com/quimortiz/dynobench"> Dynobench</a>. Small tutorial coming soon!
 
 ## TL;DR
 
-Under Construction!
+iDb-RRT is an advanced kinodynamic motion planning algorithm that enhances the Rapidly-exploring Random Trees (RRT) framework by integrating motion primitives and trajectory optimization. This new approach, building on our previous Iterative Discontinuity Bounded A* (iDb-A*) method, significantly improves the efficiency and speed of finding collision-free paths in robotics. Tested across various systems and scenarios, iDb-RRT demonstrates up to a tenfold increase in performance compared to previous methods.
+
+
+## Abstract
+
+Rapidly-exploring Random Trees (RRT) and its variations have emerged as a robust and efficient tool for finding collision-free paths in robotic systems. However, adding dynamic constraints makes the motion planning problem significantly harder, as it requires solving two-value boundary problems (computationally expensive) or propagating random control inputs (uninformative). Alternatively, Iterative Discontinuity Bounded A* (iDb-A*), introduced in our previous study, combines search and optimization iteratively. The search step connects short trajectories (motion primitives) while allowing a bounded discontinuity between the motion primitives, which is later repaired in the trajectory optimization step.
+Building upon these foundations, in this paper, we present iDb-RRT, a sampling-based kinodynamic motion planning algorithm that combines motion primitives and trajectory optimization within the RRT framework. iDb-RRT is probabilistically complete and can be implemented in forward or bidirectional mode. We have tested our algorithm across a benchmark suite comprising 30 problems, spanning 8 different systems, and shown that iDb-RRT can find solutions up to 10x faster than previous methods, especially in complex scenarios that require long trajectories or involve navigating through narrow passages. 
+
+
+## Supplementary Video
+
+<iframe width="300" height="400" class="center"  src="https://www.youtube.com/embed/3ToQU-qLWg0" frameborder="0" allowfullscreen></iframe>
+
 
 ## Supplementary Material for IROS Submission
 
