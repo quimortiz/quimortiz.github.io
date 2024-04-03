@@ -22,6 +22,11 @@ See also my [Google Scholar Profile](https://scholar.google.com/citations?user=O
 
 {% bibliography --file preprints %}
 
+
+## Phd Thesis
+
+{% bibliography --file phd_thesis %}
+
 ## Publications
 
 {% bibliography --file references %}

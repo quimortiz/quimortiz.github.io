@@ -3,9 +3,11 @@ layout: default
 ---
 
 
-Hello!
 
-Recent Update: I defended my PhD in January 2024, and I am now a Postdoc researcher working at the Machines in Motion Laboratory at New York University with Ludovic Righetti.
+**Recent Update**: I defended my PhD in January 2024! Check out the <a href="/assets/phd_thesis.pdf">thesis</a> and the presentation <a href="/assets/phd_slides.pdf">slides</a>. I am now a Postdoc researcher at New York University working with Prof. Ludovic Righetti (Machines in Motion Laboratory).
+
+
+Hello!
 
 I am Joaquim Ortiz-Haro, a PhD student in robotics at the Technical University of Berlin ([TUB](https://www.tu.berlin/)) and the International Max-Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)). My advisor is [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/index.html) in the research group [Learning and Intelligent Systems](https://argmin.lis.tu-berlin.de/). My research interesets are in Task and Motion Planning, optimization and deep learning for robotics.
 
