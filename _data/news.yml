@@ -1,6 +1,10 @@
 news:
 
+  - what: Three papers presented at ICRA 2024 in Japan! <a href="https://arxiv.org/abs/2309.16445">Mulit-robot motion planning</a>, <a href="https://www.user.tu-berlin.de/mtoussai/24-CompletionTrees/">Effort Level Search</a> and <a href="https://arxiv.org/abs/2405.02053"> Solving Manipulation Puzzles</a>.
+    when: 05/2024
+
   - what: Moved to New York to work as a postdoc researcher in the Machines in Motion Laboratory at New York University, led by Professor Ludovic Righetti.
+
     when: 02/2024
 
   - what: "I successfully defended my PhD and obtained the maximum qualification! Big thanks to my supervisor Marc Toussaint (TU Berlin) and the doctoral committee: Tomas Lozano-Perez (MIT), and Georg Martius (Uni Tübingen)."
