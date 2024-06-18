@@ -110,4 +110,4 @@ font-size: .875em;
 
 </style>
 
-Download Full CV <a href="/assets/cv_2023-06.pdf">(PDF)</a>. Last updated: May 2023.
+Download Full CV <a href="/assets/cv_june24.pdf">(PDF)</a>. Last updated: June 2024.
