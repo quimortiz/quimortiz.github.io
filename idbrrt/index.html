@@ -5,7 +5,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Blog &#8211; Joaquim Ortiz-Haro</title>
+    <title>iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization &#8211; Joaquim Ortiz-Haro</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
@@ -17,7 +17,7 @@
     <meta name="author" content="Joaquim Ortiz-Haro">
     
     
-    <link rel="canonical" href="/blog/">
+    <link rel="canonical" href="/idbrrt/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Joaquim Ortiz-Haro" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -99,18 +99,18 @@ window.MathJax = {
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Blog">
+    <meta property="og:title" content="iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization">
     <meta property="og:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics">
-    <meta property="og:url" content="/blog/">
+    <meta property="og:url" content="/idbrrt/">
     <meta property="og:site_name" content="Joaquim Ortiz-Haro">
     
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="Blog" />
+    <meta name="twitter:title" content="iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization" />
     <meta name="twitter:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics" />
-    <meta name="twitter:url" content="/blog/" />
+    <meta name="twitter:url" content="/idbrrt/" />
     
 
     <!-- Icons -->
@@ -138,7 +138,7 @@ window.MathJax = {
 	
 
   <div class="site-wrap">
-    <header class="site-header px2 px-responsive">
+    <!-- <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
       <a href="/" class="site-title">Joaquim Ortiz-Haro</a>
@@ -172,25 +172,54 @@ window.MathJax = {
     </div>
   </div>
 </header>
-
+ -->
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        <b> under construction </b>
-<p>
-Robotics, Programming, Maths and Optimization.
-</p>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2">iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization</h1>
+  </header>
+  <article class="post-content">
+  <style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+</style>
+
+<p><a href="https://quimortiz.github.io/">Joaquim Ortiz-Haro</a>, <a href="https://whoenig.github.io/">Wolfgang Honig</a>, <a href="https://vhartmann.com/">Valentin Hartmann</a>, <a href="https://www.user.tu-berlin.de/mtoussai/">Marc Toussaint</a>, and <a href="https://engineering.nyu.edu/faculty/ludovic-righetti">Ludovic Righetti</a></p>
+
+<p><strong>Back to personal webpage</strong>: <a href="/Research/">here</a></p>
+
+<p><a href="https://arxiv.org/abs/2403.10745"> Preprint</a></p>
+
+<p>Code: <a href="https://github.com/quimortiz/dynoplan"> Dynoplan</a> <a href="https://github.com/quimortiz/dynobench"> Dynobench</a>. Small tutorial coming soon!</p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>iDb-RRT is an advanced kinodynamic motion planning algorithm that enhances the Rapidly-exploring Random Trees (RRT) framework by integrating motion primitives and trajectory optimization. This new approach, building on our previous Iterative Discontinuity Bounded A* (iDb-A*) method, significantly improves the efficiency and speed of finding collision-free paths in robotics. Tested across various systems and scenarios, iDb-RRT demonstrates up to a tenfold increase in performance compared to previous methods.</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Rapidly-exploring Random Trees (RRT) and its variations have emerged as a robust and efficient tool for finding collision-free paths in robotic systems. However, adding dynamic constraints makes the motion planning problem significantly harder, as it requires solving two-value boundary problems (computationally expensive) or propagating random control inputs (uninformative). Alternatively, Iterative Discontinuity Bounded A* (iDb-A*), introduced in our previous study, combines search and optimization iteratively. The search step connects short trajectories (motion primitives) while allowing a bounded discontinuity between the motion primitives, which is later repaired in the trajectory optimization step.
+Building upon these foundations, in this paper, we present iDb-RRT, a sampling-based kinodynamic motion planning algorithm that combines motion primitives and trajectory optimization within the RRT framework. iDb-RRT is probabilistically complete and can be implemented in forward or bidirectional mode. We have tested our algorithm across a benchmark suite comprising 30 problems, spanning 8 different systems, and shown that iDb-RRT can find solutions up to 10x faster than previous methods, especially in complex scenarios that require long trajectories or involve navigating through narrow passages.</p>
+
+<h2 id="supplementary-video">Supplementary Video</h2>
+
+<iframe width="300" height="400" class="center" src="https://www.youtube.com/embed/3ToQU-qLWg0" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="supplementary-material-for-iros-submission">Supplementary Material for IROS Submission</h2>
+
+<p>We have evaluated our new algorithms, iDB-RRT-F and iDB-RRT-C, against three state-of-the-art methods for kinodynamic motion planning. Due to space constraints, in the submitted paper we only report the median of the compute time and the cost across 20 runs of each algorithm. Here, we plot the compute time and cost using box plots, which provide a graphical representation of the variance of each algorithm. Results are available in the following <a href="/assets/merged_boxplots_2024-03-15.pdf">PDF</a>, where we display one problem per page.</p>
 
 
-
-
-<div class="home">
-  
-    <h1 class='center'>Coming soon...</h1>
-  
+  </article>
 </div>
-
-
 
       </div>
     </div>
