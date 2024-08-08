@@ -129,11 +129,11 @@ for full results and discussion. These results can be reproduced using our code 
 
 We repeat the benchmark using a multiple shooting formulation and Sequential Quadratic Programming for the trajectory optimization step of iDb-A* (instead of Differential Dynamic Programming). The suffix "-m" indicates that we use a multiple shooting solver instead of Differential Dynamic Programming. This benchmark was run on an Intel i9-14900KF CPU.
 
-<a href="/assets/tro_new/merged_2024-08-06--14-15-05.tex.nice.tex.pdf">Link to PDF</a>
+<a href="./assets/tro_new/merged_2024-08-07--15-47-40.tex.nice.tex.pdf">Link to PDF</a>
 
-<img src="/assets/tro_new/merged_2024-08-06--14-15-05.tex.nice.tex.pdf-1.png" class="center"/>
+<!--<img src="/assets/tro_new/merged_2024-08-06--14-15-05.tex.nice.tex.pdf-1.png" class="center"/>-->
 
 ### Convergence Plots for all Problems
 
 We provide the convergence plots for all problems, which display the median of the cost and success rate over 20 runs, with a 95% confidence interval, which provides a clear view of the variance of the different algorithms. This results correspond to the table shown above (Intel i9-14900KF CPU).
-<a href="/assets/tro_new/plot_2024-08-06--15-09-08.pdf">Link to PDF</a>.
+<a href="./assets/tro_new/plot_2024-08-07--15-49-11.pdf">Link to PDF</a>.
