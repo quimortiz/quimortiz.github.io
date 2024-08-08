@@ -136,4 +136,5 @@ We repeat the benchmark using a multiple shooting formulation and Sequential Qua
 ### Convergence Plots for all Problems
 
 We provide the convergence plots for all problems, which display the median of the cost and success rate over 20 runs, with a 95% confidence interval, which provides a clear view of the variance of the different algorithms. This results correspond to the table shown above (Intel i9-14900KF CPU).
+
 <a href="./assets/tro_new/plot_2024-08-07--15-49-11.pdf">Link to PDF</a>.
