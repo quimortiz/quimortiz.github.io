@@ -1,0 +1,4676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="zEfIF-swgTIm8OQxN7S7WtQPeCmkE01-O92WQOx5WYs" />
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Research &#8211; Joaquim Ortiz-Haro</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics">
+    <link rel="manifest" type="application/manifest+json; charset=utf-8" href="/manifest.json" />
+    <meta name="robots" content="all">
+    <meta name="author" content="Joaquim Ortiz-Haro">
+    
+    
+    <link rel="canonical" href="/Research/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Joaquim Ortiz-Haro" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202408081712" type="text/css">
+
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+
+
+
+
+
+
+
+    
+
+    <!-- MathJax -->
+      <!--
+    <script type="text/javascript" async
+        src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    -->
+
+
+    
+
+      <!-- Ref: https://quuxplusone.github.io/blog/2020/08/19/mathjax-v3-in-jekyll/ -->
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  },
+  chtml: {
+            scale: 1.0
+        },
+        svg: {
+            scale: 1.0
+        },
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      const Macro = MathJax._.input.tex.Symbol.Macro;
+      const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+      const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+      const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+      MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+    }
+  }
+};
+</script>
+
+
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+
+  
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Research">
+    <meta property="og:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics">
+    <meta property="og:url" content="/Research/">
+    <meta property="og:site_name" content="Joaquim Ortiz-Haro">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Research" />
+    <meta name="twitter:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics" />
+    <meta name="twitter:url" content="/Research/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title">Joaquim Ortiz-Haro</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-active" href="/Research/">Research</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/CV/">CV</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2">Research</h1>
+  </header>
+  <article class="post-content">
+  <style>
+
+ol.bibliography  {
+   text-indent: 0;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+</style>
+
+<p>See also my <a href="https://scholar.google.com/citations?user=ODdBJAcAAAAJ&amp;hl=ca&amp;oi=ao">Google Scholar Profile</a></p>
+
+<h2 id="preprints">Preprints</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2023iterative">iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning. (2023). In <i>Under review. Submitted to IEEE Transactions on Robotics (T-RO)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2311.03553"> iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> 
+
+<!-- how published -->   Under review. Submitted to IEEE Transactions on Robotics (T-RO),       2023. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2311.03553">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+           | <a href="https://www.youtube.com/watch?v=tGuPuihXSbg">VIDEO</a>
+    <!-- </span> -->
+    
+
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="https://quimortiz.github.io/idbastar">WEBPAGE</a>
+    <!-- </span> -->
+    
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="https://github.com/quimortiz/dynoplan">CODE</a>
+    <!-- </span> -->
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2023iterative_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="ortiz2023iterative_bibtex" style="display: none">
+  <pre class="gfg">@misc{ortiz2023iterative,
+  title = {iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning},
+  author = {},
+  pdf = {https://arxiv.org/abs/2311.03553},
+  booktitle = {Under review. Submitted to IEEE Transactions on Robotics (T-RO)},
+  year = {2023},
+  webpage = {https://quimortiz.github.io/idbastar},
+  youtube = {tGuPuihXSbg},
+  code = {https://github.com/quimortiz/dynoplan}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{ortiz2023iterative,
+  title = {iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning},
+  author = {},
+  pdf = {https://arxiv.org/abs/2311.03553},
+  booktitle = {Under review. Submitted to IEEE Transactions on Robotics (T-RO)},
+  year = {2023},
+  webpage = {https://quimortiz.github.io/idbastar},
+  youtube = {tGuPuihXSbg},
+  code = {https://github.com/quimortiz/dynoplan}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="grote2023neural">Grote, P., Ortiz-Haro, J., Toussaint, M., &amp; Oguz, O. S. (2024). Neural Field Representations of Articulated Objects for Robotic Manipulation Planning. In <i>Under review</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Neural Field Representations of Articulated Objects for Robotic Manipulation Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2309.07620"> Neural Field Representations of Articulated Objects for Robotic Manipulation Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Phillip Grote,  Joaquim Ortiz-Haro,  Marc Toussaint,  and Ozgur S. Oguz.  
+
+<!-- how published -->   Under review,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2309.07620">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('grote2023neural_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="grote2023neural_bibtex" style="display: none">
+  <pre class="gfg">@misc{grote2023neural,
+  title = {Neural Field Representations of Articulated Objects for Robotic Manipulation Planning},
+  author = {Grote, Phillip and Ortiz-Haro, Joaquim and Toussaint, Marc and Oguz, Ozgur S.},
+  booktitle = {Under review},
+  year = {2024},
+  pdf = {https://arxiv.org/abs/2309.07620}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{grote2023neural,
+  title = {Neural Field Representations of Articulated Objects for Robotic Manipulation Planning},
+  author = {Grote, Phillip and Ortiz-Haro, Joaquim and Toussaint, Marc and Oguz, Ozgur S.},
+  booktitle = {Under review},
+  year = {2024},
+  pdf = {https://arxiv.org/abs/2309.07620}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="wahba2023kinodynamic">Wahba, K., Ortiz-Haro, J., Toussaint, M., &amp; Hönig, W. (2024). Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments. In <i>Under review</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2310.03394"> Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Khaled Wahba,  Joaquim Ortiz-Haro,  Marc Toussaint,  and Wolfgang Hönig.  
+
+<!-- how published -->   Under review,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2310.03394">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('wahba2023kinodynamic_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="wahba2023kinodynamic_bibtex" style="display: none">
+  <pre class="gfg">@misc{wahba2023kinodynamic,
+  title = {Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments},
+  author = {Wahba, Khaled and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  booktitle = {Under review},
+  year = {2024},
+  pdf = {https://arxiv.org/abs/2310.03394}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{wahba2023kinodynamic,
+  title = {Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments},
+  author = {Wahba, Khaled and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  booktitle = {Under review},
+  year = {2024},
+  pdf = {https://arxiv.org/abs/2310.03394}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortizharo2024idbrrt">Ortiz-Haro, J., Hönig, W., Hartmann, V. N., Toussaint, M., &amp; Righetti, L. (2024). <i>iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2403.10745"> iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro,  Wolfgang Hönig,  Valentin N. Hartmann,  Marc Toussaint,  and Ludovic Righetti.  
+
+<!-- how published -->        2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2403.10745">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+           | <a href="https://www.youtube.com/watch?v=3ToQU-qLWg0">VIDEO</a>
+    <!-- </span> -->
+    
+
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="https://quimortiz.github.io/idbrrt">WEBPAGE</a>
+    <!-- </span> -->
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortizharo2024idbrrt_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="ortizharo2024idbrrt_bibtex" style="display: none">
+  <pre class="gfg">@misc{ortizharo2024idbrrt,
+  title = {iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization},
+  author = {Ortiz-Haro, Joaquim and Hönig, Wolfgang and Hartmann, Valentin N. and Toussaint, Marc and Righetti, Ludovic},
+  year = {2024},
+  eprint = {2403.10745},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2403.10745},
+  webpage = {https://quimortiz.github.io/idbrrt},
+  youtube = {3ToQU-qLWg0}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{ortizharo2024idbrrt,
+  title = {iDb-RRT: Sampling-based Kinodynamic Motion Planning with Motion Primitives and Trajectory Optimization},
+  author = {Ortiz-Haro, Joaquim and Hönig, Wolfgang and Hartmann, Valentin N. and Toussaint, Marc and Righetti, Ludovic},
+  year = {2024},
+  eprint = {2403.10745},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2403.10745},
+  webpage = {https://quimortiz.github.io/idbrrt},
+  youtube = {3ToQU-qLWg0}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="phd-thesis">Phd Thesis</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2024factored">Ortiz-Haro, J. (2024). Factored Task and Motion Planning with Combined Optimization, Sampling and Learning [PhD thesis]. In <i>TU-Berlin</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Factored Task and Motion Planning with Combined Optimization, Sampling and Learning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="/assets/phd_thesis.pdf"> Factored Task and Motion Planning with Combined Optimization, Sampling and Learning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro.  
+
+<!-- how published -->   TU-Berlin,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="/assets/phd_thesis.pdf">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      | <a href="/assets/phd_slides.pdf">SLIDES</a>
+    <!-- </span> -->
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2024factored_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortiz2024factored_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortiz2024factored_abstract" style="display: none">
+  <p class="extra">
+Modern robots excel at performing simple and repetitive tasks in controlled environments; however, future applications, such as robotic construction and assistance, will require long-term planning of physical interactions.
+
+These problems can be formulated as Task and Motion Planning (TAMP). 
+The goal is to find how the robot should move to solve complex tasks requiring multiple interactions with objects in the environment, such as building furniture or cleaning and organizing the kitchen. However, TAMP is notoriously difficult to solve because it involves a tight combination of task planning and motion planning, considering geometric and physical constraints.
+
+In this thesis, we aim to improve the performance of TAMP algorithms from three complementary perspectives.
+First, we investigate the integration of discrete task planning with continuous trajectory optimization.
+Our main contribution is a conflict-based solver that automatically discovers why a task plan might fail when considering the constraints of the physical world.
+This information is then fed back into the task planner, resulting in an efficient, bidirectional, and intuitive interface between task and motion, capable of solving TAMP problems with multiple objects, robots, and tight physical constraints.
+
+Traditionally, there have been two competing approaches to solving TAMP problems: sample-based and optimization-based methods.
+In the second part, we first illustrate that, given the wide range of tasks and environments within TAMP, neither sampling nor optimization is superior in all settings.
+To combine the strengths of both approaches, we have designed meta-solvers for TAMP, adaptive solvers that automatically select which algorithms and computations to use and how to best decompose each problem to find a solution faster.
+
+A third promising direction to improve TAMP algorithms is to learn from previous solutions to similar problems.
+In the third part, we combine deep learning architectures with model-based reasoning to accelerate computations within our TAMP solver.
+Specifically, we target infeasibility detection and nonlinear optimization, focusing on generalization, accuracy, compute time, and data efficiency.
+
+At the core of our contributions is a refined, factored representation of the trajectory optimization problems inside TAMP.
+This structure not only facilitates more efficient planning, encoding of geometric infeasibility, and meta-reasoning but also provides better generalization in neural architectures.
+</p>
+</div>
+ 
+
+
+<div id="ortiz2024factored_bibtex" style="display: none">
+  <pre class="gfg">@phdthesis{ortiz2024factored,
+  title = {Factored Task and Motion Planning with Combined Optimization, Sampling and Learning},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {/assets/phd_thesis.pdf},
+  slides = {/assets/phd_slides.pdf},
+  booktitle = {TU-Berlin},
+  year = {2024}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+Modern robots excel at performing simple and repetitive tasks in controlled environments; however, future applications, such as robotic construction and assistance, will require long-term planning of physical interactions.
+
+These problems can be formulated as Task and Motion Planning (TAMP). 
+The goal is to find how the robot should move to solve complex tasks requiring multiple interactions with objects in the environment, such as building furniture or cleaning and organizing the kitchen. However, TAMP is notoriously difficult to solve because it involves a tight combination of task planning and motion planning, considering geometric and physical constraints.
+
+In this thesis, we aim to improve the performance of TAMP algorithms from three complementary perspectives.
+First, we investigate the integration of discrete task planning with continuous trajectory optimization.
+Our main contribution is a conflict-based solver that automatically discovers why a task plan might fail when considering the constraints of the physical world.
+This information is then fed back into the task planner, resulting in an efficient, bidirectional, and intuitive interface between task and motion, capable of solving TAMP problems with multiple objects, robots, and tight physical constraints.
+
+Traditionally, there have been two competing approaches to solving TAMP problems: sample-based and optimization-based methods.
+In the second part, we first illustrate that, given the wide range of tasks and environments within TAMP, neither sampling nor optimization is superior in all settings.
+To combine the strengths of both approaches, we have designed meta-solvers for TAMP, adaptive solvers that automatically select which algorithms and computations to use and how to best decompose each problem to find a solution faster.
+
+A third promising direction to improve TAMP algorithms is to learn from previous solutions to similar problems.
+In the third part, we combine deep learning architectures with model-based reasoning to accelerate computations within our TAMP solver.
+Specifically, we target infeasibility detection and nonlinear optimization, focusing on generalization, accuracy, compute time, and data efficiency.
+
+At the core of our contributions is a refined, factored representation of the trajectory optimization problems inside TAMP.
+This structure not only facilitates more efficient planning, encoding of geometric infeasibility, and meta-reasoning but also provides better generalization in neural architectures.
+</p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@phdthesis{ortiz2024factored,
+  title = {Factored Task and Motion Planning with Combined Optimization, Sampling and Learning},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {/assets/phd_thesis.pdf},
+  slides = {/assets/phd_slides.pdf},
+  booktitle = {TU-Berlin},
+  year = {2024}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="publications">Publications</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="levit2023solving">Svetlana, L., Ortiz-Haro, J., &amp; Toussaint, M. (2024). Solving Sequential Manipulation Puzzles by Finding Easier Subproblems. In <i>ICRA</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Solving Sequential Manipulation Puzzles by Finding Easier Subproblems</div> -->
+
+<div>
+
+<div class="title">  
+    
+Solving Sequential Manipulation Puzzles by Finding Easier Subproblems
+    
+</div>
+
+<!-- authors --> Levit Svetlana,  Joaquim Ortiz-Haro,  and Marc Toussaint.  
+
+<!-- how published -->   ICRA,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('levit2023solving_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="levit2023solving_bibtex" style="display: none">
+  <pre class="gfg">@misc{levit2023solving,
+  title = {Solving Sequential Manipulation Puzzles by Finding Easier Subproblems},
+  author = {Svetlana, Levit and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{levit2023solving,
+  title = {Solving Sequential Manipulation Puzzles by Finding Easier Subproblems},
+  author = {Svetlana, Levit and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="toussaint2023effort">Toussaint, M., Ortiz-Haro, J., Hartmann, V., Karpas, E., &amp; Hoenig, W. (2024). Effort Level Search in Infinite Completion Trees with Application to Task-and-Motion Planning. In <i>ICRA</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Effort Level Search in Infinite Completion Trees with Application to Task-and-Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+Effort Level Search in Infinite Completion Trees with Application to Task-and-Motion Planning
+    
+</div>
+
+<!-- authors --> Marc Toussaint,  Joaquim Ortiz-Haro,  Valentin Hartmann,  Erez Karpas,  and Wolfgang Hoenig.  
+
+<!-- how published -->   ICRA,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('toussaint2023effort_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="toussaint2023effort_bibtex" style="display: none">
+  <pre class="gfg">@misc{toussaint2023effort,
+  title = {Effort Level Search in Infinite Completion Trees with Application to Task-and-Motion Planning},
+  author = {Toussaint, Marc and Ortiz-Haro, Joaquim and Hartmann, Valentin and Karpas, Erez and Hoenig, Wolfgang},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{toussaint2023effort,
+  title = {Effort Level Search in Infinite Completion Trees with Application to Task-and-Motion Planning},
+  author = {Toussaint, Marc and Ortiz-Haro, Joaquim and Hartmann, Valentin and Karpas, Erez and Hoenig, Wolfgang},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="moldagalieva2023dbcbs">Moldagalieva, A., Ortiz-Haro, J., Toussaint, M., &amp; Hönig, W. (2024). db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning. In <i>ICRA</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2309.16445"> db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Akmaral Moldagalieva,  Joaquim Ortiz-Haro,  Marc Toussaint,  and Wolfgang Hönig.  
+
+<!-- how published -->   ICRA,       2024. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2309.16445">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('moldagalieva2023dbcbs_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="moldagalieva2023dbcbs_bibtex" style="display: none">
+  <pre class="gfg">@misc{moldagalieva2023dbcbs,
+  title = {db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning},
+  author = {Moldagalieva, Akmaral and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  pdf = {https://arxiv.org/abs/2309.16445},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{moldagalieva2023dbcbs,
+  title = {db-CBS: Discontinuity-Bounded Conflict-Based Search for Multi-Robot Kinodynamic Motion Planning},
+  author = {Moldagalieva, Akmaral and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  pdf = {https://arxiv.org/abs/2309.16445},
+  booktitle = {ICRA},
+  year = {2024}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="https://doi.org/10.48550/arxiv.2303.00637">Hartmann, V. N., Ortiz-Haro, J., &amp; Toussaint, M. (2023). Efficient Path Planning In Manipulation Planning Problems by Actively Reusing Validation Effort. In <i>IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>. https://doi.org/10.48550/ARXIV.2303.00637</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Efficient Path Planning In Manipulation Planning Problems by Actively Reusing Validation Effort</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2303.00637"> Efficient Path Planning In Manipulation Planning Problems by Actively Reusing Validation Effort </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Valentin N. Hartmann,  Joaquim Ortiz-Haro,  and Marc Toussaint.  
+
+<!-- how published -->   IEEE Int. Conf. on Intelligent Robots and Systems (IROS),       2023. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2303.00637">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('https://doi.org/10.48550/arxiv.2303.00637_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="https://doi.org/10.48550/arxiv.2303.00637_bibtex" style="display: none">
+  <pre class="gfg">@misc{https://doi.org/10.48550/arxiv.2303.00637,
+  doi = {10.48550/ARXIV.2303.00637},
+  url = {https://arxiv.org/abs/2303.00637},
+  pdf = {https://arxiv.org/abs/2303.00637},
+  author = {Hartmann, Valentin N. and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  keywords = {Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Efficient Path Planning In Manipulation Planning Problems by Actively Reusing Validation Effort},
+  year = {2023},
+  booktitle = {IEEE Int. Conf. on Intelligent Robots and Systems (IROS)},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{https://doi.org/10.48550/arxiv.2303.00637,
+  doi = {10.48550/ARXIV.2303.00637},
+  url = {https://arxiv.org/abs/2303.00637},
+  pdf = {https://arxiv.org/abs/2303.00637},
+  author = {Hartmann, Valentin N. and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  keywords = {Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Efficient Path Planning In Manipulation Planning Problems by Actively Reusing Validation Effort},
+  year = {2023},
+  booktitle = {IEEE Int. Conf. on Intelligent Robots and Systems (IROS)},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2022conflict">Ortiz-Haro, J., Ha, J.-S., Driess, D., Karpas, E., &amp; Toussaint, M. (2023). Learning Feasibility of Factored Nonlinear Programs in Robotic Manipulation Planning. <i>IEEE Int. Conf. on Robotics and Automation (ICRA)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Learning Feasibility of Factored Nonlinear Programs in Robotic Manipulation Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2210.12386"> Learning Feasibility of Factored Nonlinear Programs in Robotic Manipulation Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> J. Ortiz-Haro,  J.-S. Ha,  D. Driess,  E. Karpas,  and M. Toussaint.  
+
+<!-- how published -->   IEEE Int. Conf. on Robotics and Automation (ICRA),       2023. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2210.12386">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2022conflict_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="ortiz2022conflict_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2022conflict,
+  author = {Ortiz-Haro, J. and Ha, J.-S. and Driess, D. and Karpas, E. and Toussaint, M.},
+  year = {2023},
+  title = {Learning Feasibility of Factored Nonlinear Programs in Robotic Manipulation Planning},
+  pdf = {https://arxiv.org/abs/2210.12386},
+  booktitle = {IEEE Int. Conf. on Robotics and Automation (ICRA)}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2022conflict,
+  author = {Ortiz-Haro, J. and Ha, J.-S. and Driess, D. and Karpas, E. and Toussaint, M.},
+  year = {2023},
+  title = {Learning Feasibility of Factored Nonlinear Programs in Robotic Manipulation Planning},
+  pdf = {https://arxiv.org/abs/2210.12386},
+  booktitle = {IEEE Int. Conf. on Robotics and Automation (ICRA)}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2022conflictdriven">Ortiz-Haro, J., Karpas, E., Katz, M., &amp; Toussaint, M. (2022). Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving. <i>IEEE Robotics and Automation Letters (RA-L)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2211.15275"> Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> J. Ortiz-Haro,  E. Karpas,  M. Katz,  and M. Toussaint.  
+
+<!-- how published -->   IEEE Robotics and Automation Letters (RA-L),       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2211.15275">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="https://quimortiz.github.io/graphnlp/">WEBPAGE</a>
+    <!-- </span> -->
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2022conflictdriven_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="ortiz2022conflictdriven_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2022conflictdriven,
+  author = {Ortiz-Haro, J. and Karpas, E. and Katz, M. and Toussaint, M.},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2211.15275},
+  title = {Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving},
+  booktitle = {IEEE Robotics and Automation Letters (RA-L)},
+  webpage = {https://quimortiz.github.io/graphnlp/}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2022conflictdriven,
+  author = {Ortiz-Haro, J. and Karpas, E. and Katz, M. and Toussaint, M.},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2211.15275},
+  title = {Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving},
+  booktitle = {IEEE Robotics and Automation Letters (RA-L)},
+  webpage = {https://quimortiz.github.io/graphnlp/}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="honig2022db">Hönig, W., Ortiz-Haro, J., &amp; Toussaint, M. (2022). db-A*: Discontinuity-bounded Search for Kinodynamic Mobile Robot Motion Planning. <i>Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems
+  		  (IROS)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  db-A*: Discontinuity-bounded Search for Kinodynamic Mobile Robot Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2203.11108"> db-A*: Discontinuity-bounded Search for Kinodynamic Mobile Robot Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Wolfgang Hönig,  Joaquim Ortiz-Haro,  and Marc Toussaint.  
+
+<!-- how published -->   Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems
+  		  (IROS),       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2203.11108">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('honig2022db_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="honig2022db_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{honig2022db,
+  title = {db-A*: Discontinuity-bounded Search for Kinodynamic Mobile Robot Motion Planning},
+  author = {Hönig, Wolfgang and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2203.11108},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems
+    		  (IROS)}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{honig2022db,
+  title = {db-A*: Discontinuity-bounded Search for Kinodynamic Mobile Robot Motion Planning},
+  author = {Hönig, Wolfgang and Ortiz-Haro, Joaquim and Toussaint, Marc},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2203.11108},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems
+    		  (IROS)}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="braun2022rhhlgp">Braun, C. V., Ortiz-Haro, J., Toussaint, M., &amp; Oguz, O. S. (2022). RHH-LGP: Receding Horizon And Heuristics-Based Logic-Geometric Programming For Task And Motion Planning. <i>Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems
+  		  (IROS)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  RHH-LGP: Receding Horizon And Heuristics-Based Logic-Geometric Programming For Task And Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2110.03420"> RHH-LGP: Receding Horizon And Heuristics-Based Logic-Geometric Programming For Task And Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Cornelius V. Braun,  Joaquim Ortiz-Haro,  Marc Toussaint,  and Ozgur S. Oguz.  
+
+<!-- how published -->   Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems
+  		  (IROS),       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2110.03420">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('braun2022rhhlgp_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('braun2022rhhlgp_bibtex')">BIBTEX</button>
+
+ 
+<div id="braun2022rhhlgp_abstract" style="display: none">
+  <p class="extra">
+Sequential decision-making and motion planning for robotic manipulation induce combinatorial complexity. For long-horizon tasks, especially when the environment comprises many objects that can be interacted with, planning efficiency becomes even more important. To plan such long-horizon tasks, we present the RHH-LGP algorithm for combined task and motion planning (TAMP). First, we propose a TAMP approach (based on Logic-Geometric Programming) that effectively uses geometry-based heuristics for solving long-horizon manipulation tasks. We further improve the efficiency of this planner by a receding horizon formulation, resulting in RHH-LGP. We demonstrate the effectiveness and generality of our approach on several long-horizon tasks that require reasoning about interactions with a large number of objects. Using our framework, we can solve tasks that require multiple robots, including a mobile robot and snake-like walking robots, to form novel heterogeneous kinematic structures autonomously. </p>
+</div>
+ 
+
+
+<div id="braun2022rhhlgp_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{braun2022rhhlgp,
+  title = {RHH-LGP: Receding Horizon And Heuristics-Based Logic-Geometric Programming For Task And Motion Planning},
+  author = {Braun, Cornelius V. and Ortiz-Haro, Joaquim and Toussaint, Marc and Oguz, Ozgur S.},
+  year = {2022},
+  eprint = {2110.03420},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2110.03420},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems
+    		  (IROS)}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+Sequential decision-making and motion planning for robotic manipulation induce combinatorial complexity. For long-horizon tasks, especially when the environment comprises many objects that can be interacted with, planning efficiency becomes even more important. To plan such long-horizon tasks, we present the RHH-LGP algorithm for combined task and motion planning (TAMP). First, we propose a TAMP approach (based on Logic-Geometric Programming) that effectively uses geometry-based heuristics for solving long-horizon manipulation tasks. We further improve the efficiency of this planner by a receding horizon formulation, resulting in RHH-LGP. We demonstrate the effectiveness and generality of our approach on several long-horizon tasks that require reasoning about interactions with a large number of objects. Using our framework, we can solve tasks that require multiple robots, including a mobile robot and snake-like walking robots, to form novel heterogeneous kinematic structures autonomously. </p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{braun2022rhhlgp,
+  title = {RHH-LGP: Receding Horizon And Heuristics-Based Logic-Geometric Programming For Task And Motion Planning},
+  author = {Braun, Cornelius V. and Ortiz-Haro, Joaquim and Toussaint, Marc and Oguz, Ozgur S.},
+  year = {2022},
+  eprint = {2110.03420},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2110.03420},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems
+    		  (IROS)}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="kamat2022bitkomo">Kamat, J., Ortiz-Haro, J., Toussaint, M., Pokorny, F. T., &amp; Orthey, A. (2022). BITKOMO: Combining Sampling and Optimization for Fast Convergence in Optimal Motion Planning. <i>Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems (IROS)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  BITKOMO: Combining Sampling and Optimization for Fast Convergence in Optimal Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2203.01751"> BITKOMO: Combining Sampling and Optimization for Fast Convergence in Optimal Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Jay Kamat,  Joaquim Ortiz-Haro,  Marc Toussaint,  Florian T. Pokorny,  and Andreas Orthey.  
+
+<!-- how published -->   Proc. of the IEEE Int. Conf. on Intelligent Robots and Systems (IROS),       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2203.01751">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="https://sites.google.com/goa.bits-pilani.ac.in/bitkomo">WEBPAGE</a>
+    <!-- </span> -->
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('kamat2022bitkomo_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="kamat2022bitkomo_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{kamat2022bitkomo,
+  title = {BITKOMO: Combining Sampling and Optimization for Fast Convergence in Optimal Motion Planning},
+  author = {Kamat, Jay and Ortiz-Haro, Joaquim and Toussaint, Marc and Pokorny, Florian T. and Orthey, Andreas},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2203.01751},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems (IROS)},
+  webpage = {https://sites.google.com/goa.bits-pilani.ac.in/bitkomo}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{kamat2022bitkomo,
+  title = {BITKOMO: Combining Sampling and Optimization for Fast Convergence in Optimal Motion Planning},
+  author = {Kamat, Jay and Ortiz-Haro, Joaquim and Toussaint, Marc and Pokorny, Florian T. and Orthey, Andreas},
+  year = {2022},
+  pdf = {https://arxiv.org/abs/2203.01751},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Intelligent Robots and Systems (IROS)},
+  webpage = {https://sites.google.com/goa.bits-pilani.ac.in/bitkomo}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2022conflictdirected">Ortiz-Haro, J., Karpas, E., Katz, M., &amp; Toussaint, M. (2022). Conflict-Directed Diverse Planning for Logic-Geometric Programming. <i>International Conference on Automated Planning and Scheduling (ICAPS)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Conflict-Directed Diverse Planning for Logic-Geometric Programming</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/19811"> Conflict-Directed Diverse Planning for Logic-Geometric Programming </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro,  Erez Karpas,  Michael Katz,  and Marc Toussaint.  
+
+<!-- how published -->   International Conference on Automated Planning and Scheduling (ICAPS),       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/19811">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+      | <a href="/ConflictPlanningLGP/">WEBPAGE</a>
+    <!-- </span> -->
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2022conflictdirected_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortiz2022conflictdirected_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortiz2022conflictdirected_abstract" style="display: none">
+  <p class="extra">Robots operating in the real world must combine task planning for reasoning about what to do with motion planning for reasoning about how to do it – this is known as task and motion planning. One promising approach for task and motion planning is Logic Geometric Programming (LGP) which integrates a logical layer and a geometric layer in an optimization formulation. The logical layer describes feasible high-level actions at an abstract symbolic level, while the geometric layer uses continuous optimization methods to reason about motion trajectories with geometric constraints. 
+In this paper we propose a new approach for solving task and motion planning problems in the LGP formulation, that leverages state-of-the-art diverse planning at the logical layer to explore the space of feasible logical plans, and minimizes the number of optimization problems to be solved on the continuous geometric layer.
+To this end, geometric infeasibility is fed back into planning by identifying prefix conflicts and incorporating this back into the planner through a novel multi-prefix forbidding compilation. We further leverage diverse planning with a new novelty criteria for selecting candidate plans based on the prefix novelty, and a metareasoning approach which attempts to extract only useful conflicts by leveraging the information that is gathered in the course of solving the given problem.</p>
+</div>
+ 
+
+
+<div id="ortiz2022conflictdirected_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2022conflictdirected,
+  title = {Conflict-Directed Diverse Planning for Logic-Geometric Programming},
+  author = {Ortiz-Haro, Joaquim and Karpas, Erez and Katz, Michael and Toussaint, Marc},
+  booktitle = {International Conference on Automated Planning and Scheduling (ICAPS)},
+  year = {2022},
+  webpage = {/ConflictPlanningLGP/},
+  pdf = {https://ojs.aaai.org/index.php/ICAPS/article/view/19811}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>Robots operating in the real world must combine task planning for reasoning about what to do with motion planning for reasoning about how to do it – this is known as task and motion planning. One promising approach for task and motion planning is Logic Geometric Programming (LGP) which integrates a logical layer and a geometric layer in an optimization formulation. The logical layer describes feasible high-level actions at an abstract symbolic level, while the geometric layer uses continuous optimization methods to reason about motion trajectories with geometric constraints. 
+In this paper we propose a new approach for solving task and motion planning problems in the LGP formulation, that leverages state-of-the-art diverse planning at the logical layer to explore the space of feasible logical plans, and minimizes the number of optimization problems to be solved on the continuous geometric layer.
+To this end, geometric infeasibility is fed back into planning by identifying prefix conflicts and incorporating this back into the planner through a novel multi-prefix forbidding compilation. We further leverage diverse planning with a new novelty criteria for selecting candidate plans based on the prefix novelty, and a metareasoning approach which attempts to extract only useful conflicts by leveraging the information that is gathered in the course of solving the given problem.</p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2022conflictdirected,
+  title = {Conflict-Directed Diverse Planning for Logic-Geometric Programming},
+  author = {Ortiz-Haro, Joaquim and Karpas, Erez and Katz, Michael and Toussaint, Marc},
+  booktitle = {International Conference on Automated Planning and Scheduling (ICAPS)},
+  year = {2022},
+  webpage = {/ConflictPlanningLGP/},
+  pdf = {https://ojs.aaai.org/index.php/ICAPS/article/view/19811}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2021structured">Ortiz-Haro, J., Ha, J.-S., Driess, D., &amp; Toussaint, M. (2021). Structured deep generative models for sampling on constraint manifolds in sequential manipulation. <i>5th Annual Conference on Robot Learning (CoRL)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Structured deep generative models for sampling on constraint manifolds in sequential manipulation</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://openreview.net/pdf?id=CPbn4N3a2zC"> Structured deep generative models for sampling on constraint manifolds in sequential manipulation </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro,  Jung-Su Ha,  Danny Driess,  and Marc Toussaint.  
+
+<!-- how published -->   5th Annual Conference on Robot Learning (CoRL),       2021. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://openreview.net/pdf?id=CPbn4N3a2zC">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      | <a href="/assets/poster_corl21.pdf">POSTER</a>
+    <!-- </span> -->
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2021structured_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortiz2021structured_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortiz2021structured_abstract" style="display: none">
+  <p class="extra">
+Sampling efficiently on constraint manifolds is a core problem in robotics.
+We propose Deep Generative Constraint Sampling (DGCS), which combines a deep generative model for sampling close to a constraint manifold with nonlinear constrained optimization to project to the constraint manifold. 
+The generative model is conditioned on the problem instance, taking a scene image as input, and it is trained with a dataset of solutions and a novel analytic constraint term.
+To further improve the precision and diversity of samples, we extend the approach to exploit a factorization of the constrained problem. We evaluate our approach in two problems of robotic sequential manipulation in cluttered environments. 
+Experimental results demonstrate that our deep generative model produces diverse and precise samples and outperforms heuristic warmstart initialization. </p>
+</div>
+ 
+
+
+<div id="ortiz2021structured_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2021structured,
+  title = {Structured deep generative models for sampling on constraint manifolds in sequential manipulation},
+  author = {Ortiz-Haro, Joaquim and Ha, Jung-Su and Driess, Danny and Toussaint, Marc},
+  booktitle = {5th Annual Conference on Robot Learning (CoRL)},
+  year = {2021},
+  pdf = {https://openreview.net/pdf?id=CPbn4N3a2zC},
+  poster = {/assets/poster_corl21.pdf}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+Sampling efficiently on constraint manifolds is a core problem in robotics.
+We propose Deep Generative Constraint Sampling (DGCS), which combines a deep generative model for sampling close to a constraint manifold with nonlinear constrained optimization to project to the constraint manifold. 
+The generative model is conditioned on the problem instance, taking a scene image as input, and it is trained with a dataset of solutions and a novel analytic constraint term.
+To further improve the precision and diversity of samples, we extend the approach to exploit a factorization of the constrained problem. We evaluate our approach in two problems of robotic sequential manipulation in cluttered environments. 
+Experimental results demonstrate that our deep generative model produces diverse and precise samples and outperforms heuristic warmstart initialization. </p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2021structured,
+  title = {Structured deep generative models for sampling on constraint manifolds in sequential manipulation},
+  author = {Ortiz-Haro, Joaquim and Ha, Jung-Su and Driess, Danny and Toussaint, Marc},
+  booktitle = {5th Annual Conference on Robot Learning (CoRL)},
+  year = {2021},
+  pdf = {https://openreview.net/pdf?id=CPbn4N3a2zC},
+  poster = {/assets/poster_corl21.pdf}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="21-ortiz-ICRA">Ortiz-Haro, J., Hartmann, V. N., Oguz, O. S., &amp; Toussaint, M. (2021). Learning Efficient Constraint Graph Sampling for Robotic
+  		  Sequential Manipulation. <i>Proc. of the IEEE Int. Conf. on Robotics And
+  		  Automation (ICRA)</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Learning Efficient Constraint Graph Sampling for Robotic
+  		  Sequential Manipulation</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2011.04828"> Learning Efficient Constraint Graph Sampling for Robotic
+  		  Sequential Manipulation </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro,  Valentin N. Hartmann,  Ozgur S. Oguz,  and Marc Toussaint.  
+
+<!-- how published -->   Proc. of the IEEE Int. Conf. on Robotics and
+  		  Automation (ICRA),       2021. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2011.04828">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+    <!-- <span  style="margin-right:0.5rem"> -->
+           | <a href="https://www.youtube.com/watch?v=mCNdvjTbHNI">VIDEO</a>
+    <!-- </span> -->
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('21-ortiz-ICRA_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('21-ortiz-ICRA_bibtex')">BIBTEX</button>
+
+ 
+<div id="21-ortiz-ICRA_abstract" style="display: none">
+  <p class="extra">
+Efficient sampling from constraint manifolds, and thereby generating a diverse set of solutions for feasibility problems, is a fundamental challenge. We consider the case where a problem is factored, that is, the underlying nonlinear program is decomposed into differentiable equality and inequality constraints, each of which depends only on some variables. Such problems are at the core of efficient and robust sequential robot manipulation planning. Naive sequential conditional sampling of individual variables, as well as fully joint sampling of all variables at once (e.g., leveraging optimization methods), can be highly inefficient and non-robust. We propose a novel framework to learn how to break the overall problem into smaller sequential sampling problems. Specifically, we leverage Monte-Carlo Tree Search to learn assignment orders for the variable-subsets, in order to minimize the computation time to generate feasible full samples. This strategy allows us to efficiently compute a set of diverse valid robot configurations for mode-switches within sequential manipulation tasks, which are waypoints for subsequent trajectory optimization or sampling-based motion planning algorithms. We show that the learning method quickly converges to the best sampling strategy for a given problem, and outperforms user-defined orderings or fully joint optimization, while providing a higher sample diversity. 
+              </p>
+</div>
+ 
+
+
+<div id="21-ortiz-ICRA_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{21-ortiz-ICRA,
+  title = {Learning Efficient Constraint Graph Sampling for Robotic
+    		  Sequential Manipulation},
+  author = {Ortiz-Haro, Joaquim and Hartmann, Valentin N. and Oguz, Ozgur S. and Toussaint, Marc},
+  pdf = {https://arxiv.org/abs/2011.04828},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Robotics and
+    		  Automation (ICRA)},
+  year = {2021},
+  youtube = {mCNdvjTbHNI}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+Efficient sampling from constraint manifolds, and thereby generating a diverse set of solutions for feasibility problems, is a fundamental challenge. We consider the case where a problem is factored, that is, the underlying nonlinear program is decomposed into differentiable equality and inequality constraints, each of which depends only on some variables. Such problems are at the core of efficient and robust sequential robot manipulation planning. Naive sequential conditional sampling of individual variables, as well as fully joint sampling of all variables at once (e.g., leveraging optimization methods), can be highly inefficient and non-robust. We propose a novel framework to learn how to break the overall problem into smaller sequential sampling problems. Specifically, we leverage Monte-Carlo Tree Search to learn assignment orders for the variable-subsets, in order to minimize the computation time to generate feasible full samples. This strategy allows us to efficiently compute a set of diverse valid robot configurations for mode-switches within sequential manipulation tasks, which are waypoints for subsequent trajectory optimization or sampling-based motion planning algorithms. We show that the learning method quickly converges to the best sampling strategy for a given problem, and outperforms user-defined orderings or fully joint optimization, while providing a higher sample diversity. 
+              </p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{21-ortiz-ICRA,
+  title = {Learning Efficient Constraint Graph Sampling for Robotic
+    		  Sequential Manipulation},
+  author = {Ortiz-Haro, Joaquim and Hartmann, Valentin N. and Oguz, Ozgur S. and Toussaint, Marc},
+  pdf = {https://arxiv.org/abs/2011.04828},
+  booktitle = {Proc{.} of the IEEE Int{.} Conf{.} on Robotics and
+    		  Automation (ICRA)},
+  year = {2021},
+  youtube = {mCNdvjTbHNI}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="research-reports">Research Reports</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2019proximal">Ortiz-Haro, J. (2019). A proximal formulation of regularized optimal transport. <i>Research Report. Supervisor: Gergely Neu. University Pompeu Fabra (UPF), Barcelona</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  A proximal formulation of regularized optimal transport</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="/assets/ortiz2019proximal.pdf"> A proximal formulation of regularized optimal transport </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro.  
+
+<!-- how published -->   Research Report. Supervisor: Gergely Neu. University Pompeu Fabra (UPF), Barcelona,       2019. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="/assets/ortiz2019proximal.pdf">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2019proximal_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortiz2019proximal_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortiz2019proximal_abstract" style="display: none">
+  <p class="extra">
+The optimal transport distance is a powerful and useful metric to compare probability distributions in statistics and machine learning. In contrast to alternative distance measures, the main drawback is the computational complexity.
+Adding entropic regularization to the original linear program, we can find approximate solutions much faster (reducing complexity from O(n3) to O(n2), where n is the histogram size) using the Sinkhorn algorithm (iterative matrix scaling).
+However, finding solutions with small error requires using small regularizations, which increases the number of Sinkhorn iterations. The dependence is k = O(e-2), where k is the number of Sinkhorn iterations and e the approximate error.
+In this report, we have proposed an algorithm based on proximal regularization. It consists on solving a sequence of problems decreasing the regularization, and resembles the well-known heuristic e-scaling.
+Using a follow the regularized leader analysis and novel bounds for this iterative and proximal regularized setting, we bound the complexity of our algorithm as O(n2/e3). However, this result depends on two still unproved assumptions, that we leave for future work.
+We have not analyzed the experimental performance of the algorithm, but we believe it should be equivalent to e-scaling. This strategy has been shown to outperform the standard approach of solving only one scaling problem with very small regularization.
+Moreover, one of the advantages of our algorithm and e-scaling is that they are any-time algorithms, producing better solutions as more computational time is available. </p>
+</div>
+ 
+
+
+<div id="ortiz2019proximal_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2019proximal,
+  title = {A proximal formulation of regularized optimal transport},
+  booktitle = {Research Report. Supervisor: Gergely Neu. University Pompeu Fabra (UPF), Barcelona},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {/assets/ortiz2019proximal.pdf},
+  institution = {University Pompeu Fabra, Barcelona},
+  year = {2019}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+The optimal transport distance is a powerful and useful metric to compare probability distributions in statistics and machine learning. In contrast to alternative distance measures, the main drawback is the computational complexity.
+Adding entropic regularization to the original linear program, we can find approximate solutions much faster (reducing complexity from O(n3) to O(n2), where n is the histogram size) using the Sinkhorn algorithm (iterative matrix scaling).
+However, finding solutions with small error requires using small regularizations, which increases the number of Sinkhorn iterations. The dependence is k = O(e-2), where k is the number of Sinkhorn iterations and e the approximate error.
+In this report, we have proposed an algorithm based on proximal regularization. It consists on solving a sequence of problems decreasing the regularization, and resembles the well-known heuristic e-scaling.
+Using a follow the regularized leader analysis and novel bounds for this iterative and proximal regularized setting, we bound the complexity of our algorithm as O(n2/e3). However, this result depends on two still unproved assumptions, that we leave for future work.
+We have not analyzed the experimental performance of the algorithm, but we believe it should be equivalent to e-scaling. This strategy has been shown to outperform the standard approach of solving only one scaling problem with very small regularization.
+Moreover, one of the advantages of our algorithm and e-scaling is that they are any-time algorithms, producing better solutions as more computational time is available. </p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2019proximal,
+  title = {A proximal formulation of regularized optimal transport},
+  booktitle = {Research Report. Supervisor: Gergely Neu. University Pompeu Fabra (UPF), Barcelona},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {/assets/ortiz2019proximal.pdf},
+  institution = {University Pompeu Fabra, Barcelona},
+  year = {2019}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="bachelor-and-master-thesis">Bachelor and Master Thesis</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortizdeharo:hal-02180282">Ortiz-Haro, J. (2019). Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm. <i>Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier. LAAS-CNRS, Toulouse</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf"> Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro.  
+
+<!-- how published -->   Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier. LAAS-CNRS, Toulouse,       2019. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortizdeharo:hal-02180282_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortizdeharo:hal-02180282_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortizdeharo:hal-02180282_abstract" style="display: none">
+  <p class="extra">Legged robots do not require a flat and smooth surface to advance and have, therefore, thepotential to work in unstructured and complex environments. These robots, like humansand animals, can climb stairs and ladders and cross challenging terrain, which is essentialfor exploration and rescue applications.However, walking is a complex task. The robot movement must be a consequence of creat-ing contacts with the environment. Every time a new contact is made the dynamics becomediscontinuous. Also, legged robots are unstable and subject to many constraints, which re-stricts the potential movements. Finally, contact planning has a combinatorial structure: therobot chooses the optimal subset of contacts out of an infinite number of possible contactpoints.Trajectory optimization in robotics is often decoupled into two independent modules. Aproblem formulation, that models the robot motion and transforms it into a mathematicaloptimization problem, and the resolution of this optimization problem with a suitable op-timization solver. We rather envision this question as a two-way interaction between thetwo modules, that can not be considered separately. Indeed, the robotics problem formu-lation must also be a consequence of the understanding of the capabilities of the numericaloptimization algorithm.We propose a simultaneous trajectory and contact optimization with an augmented La-grangian algorithm. The contacts with the environment are modeled in a continuous waywith complementarity constraints. For example, the normal contact model is defined bytwo inequalities: positive force and distance to the surface, and a complementarity relation:either the force or the distance to the surface is zero.These constraints are added as path constraints in a continuous optimal control formula-tion. Using a direct collocation, the formulation is converted into a non-linear constrainedoptimization problem. Optimization problems with complementarity constraints have a de-generated and challenging structure and do not fulfil basic constraints qualifications usedby standard numerical solvers. Therefore, we propose to solve it using an augmented La-grangian algorithm, which offers a good behaviour under this type of constraints and canbe efficiently warmstarted.In this thesis we present our preliminary results with a robot manipulator interacting withthe environment. Optimizing simultaneously trajectory and contacts, we compute interest-ing motions such as multiple surface touching and pick and place tasks. We also outline ourfuture plans to generate walking motions with legged robots.</p>
+</div>
+ 
+
+
+<div id="ortizdeharo:hal-02180282_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortizdeharo:hal-02180282,
+  title = {Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm},
+  booktitle = {Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier. LAAS-CNRS, Toulouse},
+  author = {Ortiz-Haro, Joaquim},
+  hal_local_reference = {Rapport LAAS n{\textdegree} 19208},
+  year = {2019},
+  pdf = {https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf},
+  hal_id = {hal-02180282},
+  hal_version = {v1}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>Legged robots do not require a flat and smooth surface to advance and have, therefore, thepotential to work in unstructured and complex environments. These robots, like humansand animals, can climb stairs and ladders and cross challenging terrain, which is essentialfor exploration and rescue applications.However, walking is a complex task. The robot movement must be a consequence of creat-ing contacts with the environment. Every time a new contact is made the dynamics becomediscontinuous. Also, legged robots are unstable and subject to many constraints, which re-stricts the potential movements. Finally, contact planning has a combinatorial structure: therobot chooses the optimal subset of contacts out of an infinite number of possible contactpoints.Trajectory optimization in robotics is often decoupled into two independent modules. Aproblem formulation, that models the robot motion and transforms it into a mathematicaloptimization problem, and the resolution of this optimization problem with a suitable op-timization solver. We rather envision this question as a two-way interaction between thetwo modules, that can not be considered separately. Indeed, the robotics problem formu-lation must also be a consequence of the understanding of the capabilities of the numericaloptimization algorithm.We propose a simultaneous trajectory and contact optimization with an augmented La-grangian algorithm. The contacts with the environment are modeled in a continuous waywith complementarity constraints. For example, the normal contact model is defined bytwo inequalities: positive force and distance to the surface, and a complementarity relation:either the force or the distance to the surface is zero.These constraints are added as path constraints in a continuous optimal control formula-tion. Using a direct collocation, the formulation is converted into a non-linear constrainedoptimization problem. Optimization problems with complementarity constraints have a de-generated and challenging structure and do not fulfil basic constraints qualifications usedby standard numerical solvers. Therefore, we propose to solve it using an augmented La-grangian algorithm, which offers a good behaviour under this type of constraints and canbe efficiently warmstarted.In this thesis we present our preliminary results with a robot manipulator interacting withthe environment. Optimizing simultaneously trajectory and contacts, we compute interest-ing motions such as multiple surface touching and pick and place tasks. We also outline ourfuture plans to generate walking motions with legged robots.</p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortizdeharo:hal-02180282,
+  title = {Simultaneous trajectory and contact optimization with an augmented Lagrangian algorithm},
+  booktitle = {Master Thesis. Supervisors: Nicolas Mansard and Justin Carpentier. LAAS-CNRS, Toulouse},
+  author = {Ortiz-Haro, Joaquim},
+  hal_local_reference = {Rapport LAAS n{\textdegree} 19208},
+  year = {2019},
+  pdf = {https://hal.laas.fr/hal-02180282/file/2019_msc_quim_ortiz.pdf},
+  hal_id = {hal-02180282},
+  hal_version = {v1}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="ortiz2017parallel">Ortiz-Haro, J. (2017). Parallel tracking and mapping algorithms for an event based camera. <i>Bachelor Thesis. Supervisor: Joan Sola. IRI (Robotics Institute) and UPC, Barcelona</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Parallel tracking and mapping algorithms for an event based camera</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://upcommons.upc.edu/handle/2117/111945"> Parallel tracking and mapping algorithms for an event based camera </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Joaquim Ortiz-Haro.  
+
+<!-- how published -->   Bachelor Thesis. Supervisor: Joan Sola. IRI (Robotics Institute) and UPC, Barcelona,       2017. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://upcommons.upc.edu/handle/2117/111945">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('ortiz2017parallel_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('ortiz2017parallel_bibtex')">BIBTEX</button>
+
+ 
+<div id="ortiz2017parallel_abstract" style="display: none">
+  <p class="extra">
+An event camera has independent pixels that sends information, called “events” 
+when they perceive a local change of brightness. The information is transmitted 
+asynchronously exactly when the change occurs, with a microsecond resolution, 
+making this sensor suitable for fast robotics applications.  
+We present two new tracking and mapping algorithms, designed to work in 
+parallel to estimate the 6 DOF (Degrees Of Freedom) trajectory and the structure 
+of the scene in line based environments.  
+The tracking thread is based on a Landmark Based map and an asynchronous EKF 
+(Extended Kalman Filter) filter to estimate event per event the state of the camera 
+unlocking the true potential of the camera.  
+Inside the mapping thread, a line extraction algorithm has been designed to find 
+3D segments in the Point cloud, computed using event – ray tracing into a 
+discretized world.  
+Both algorithms have been built from scratch, and at this moment, only tested 
+independently in simulation.  
+We have obtained very good results on three synthetic self-made datasets.  
+Some pieces of the complete Parallel Tracking and Mapping system are still 
+missing. The current good work and results encourages to improve and finish the 
+algorithm to achieve the implementation on the real event based camera.
+            </p>
+</div>
+ 
+
+
+<div id="ortiz2017parallel_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{ortiz2017parallel,
+  title = {Parallel tracking and mapping algorithms for an event based camera},
+  booktitle = {Bachelor Thesis. Supervisor: Joan Sola. IRI (Robotics Institute) and UPC, Barcelona},
+  institution = {Robotics Institute IRI and UPC},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {https://upcommons.upc.edu/handle/2117/111945},
+  year = {2017}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>
+An event camera has independent pixels that sends information, called “events” 
+when they perceive a local change of brightness. The information is transmitted 
+asynchronously exactly when the change occurs, with a microsecond resolution, 
+making this sensor suitable for fast robotics applications.  
+We present two new tracking and mapping algorithms, designed to work in 
+parallel to estimate the 6 DOF (Degrees Of Freedom) trajectory and the structure 
+of the scene in line based environments.  
+The tracking thread is based on a Landmark Based map and an asynchronous EKF 
+(Extended Kalman Filter) filter to estimate event per event the state of the camera 
+unlocking the true potential of the camera.  
+Inside the mapping thread, a line extraction algorithm has been designed to find 
+3D segments in the Point cloud, computed using event – ray tracing into a 
+discretized world.  
+Both algorithms have been built from scratch, and at this moment, only tested 
+independently in simulation.  
+We have obtained very good results on three synthetic self-made datasets.  
+Some pieces of the complete Parallel Tracking and Mapping system are still 
+missing. The current good work and results encourages to improve and finish the 
+algorithm to achieve the implementation on the real event based camera.
+            </p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{ortiz2017parallel,
+  title = {Parallel tracking and mapping algorithms for an event based camera},
+  booktitle = {Bachelor Thesis. Supervisor: Joan Sola. IRI (Robotics Institute) and UPC, Barcelona},
+  institution = {Robotics Institute IRI and UPC},
+  author = {Ortiz-Haro, Joaquim},
+  pdf = {https://upcommons.upc.edu/handle/2117/111945},
+  year = {2017}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="workshop-papers">Workshop Papers</h2>
+
+<ol class="bibliography"><li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="honig2022benchmarking">Hönig, W., Ortiz-Haro, J., &amp; Marc, T. (2022). Benchmarking Sampling-, Search-, and Optimization-based Approaches for Time-Optimal Kinodynamic Mobile Robot Motion Planning. <i>Motion Planning Workshop, in IROS</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Benchmarking Sampling-, Search-, and Optimization-based Approaches for Time-Optimal Kinodynamic Mobile Robot Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://motion-planning-workshop.kavrakilab.org/papers/kinodynamic-motion-planning-benchmark.pdf"> Benchmarking Sampling-, Search-, and Optimization-based Approaches for Time-Optimal Kinodynamic Mobile Robot Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Wolfgang Hönig,  Joaquim Ortiz-Haro,  and Toussaint Marc.  
+
+<!-- how published -->   Motion planning workshop, in IROS,       2022. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://motion-planning-workshop.kavrakilab.org/papers/kinodynamic-motion-planning-benchmark.pdf">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('honig2022benchmarking_abstract')">ABSTRACT</button>
+ 
+| <button onclick="myFunction('honig2022benchmarking_bibtex')">BIBTEX</button>
+
+ 
+<div id="honig2022benchmarking_abstract" style="display: none">
+  <p class="extra">We consider time-optimal motion planning for dynamical systems that are translation-invariant, a property that holds for many mobile robots, such as differential-drives, cars, airplanes, and multirotors. Previous benchmarks have typically focused on comparing approaches within the same algorithmic class, eg, sampling-based approaches may be benchmarked using the open motion planning library (OMPL). We provide the first benchmark that compares search-, sampling-, and optimization-based time-optimal motion planning on multiple dynamical systems in different settings.</p>
+</div>
+ 
+
+
+<div id="honig2022benchmarking_bibtex" style="display: none">
+  <pre class="gfg">@inproceedings{honig2022benchmarking,
+  title = {Benchmarking Sampling-, Search-, and Optimization-based Approaches for Time-Optimal Kinodynamic Mobile Robot Motion Planning},
+  author = {Hönig, Wolfgang and Ortiz-Haro, Joaquim and Marc, Toussaint},
+  year = {2022},
+  booktitle = {Motion planning workshop, in IROS},
+  pdf = {https://motion-planning-workshop.kavrakilab.org/papers/kinodynamic-motion-planning-benchmark.pdf}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- <details> -->
+<!--   <summary>Abstract</summary> -->
+<!--   <p>We consider time-optimal motion planning for dynamical systems that are translation-invariant, a property that holds for many mobile robots, such as differential-drives, cars, airplanes, and multirotors. Previous benchmarks have typically focused on comparing approaches within the same algorithmic class, eg, sampling-based approaches may be benchmarked using the open motion planning library (OMPL). We provide the first benchmark that compares search-, sampling-, and optimization-based time-optimal motion planning on multiple dynamical systems in different settings.</p> -->
+<!-- </details> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@inproceedings{honig2022benchmarking,
+  title = {Benchmarking Sampling-, Search-, and Optimization-based Approaches for Time-Optimal Kinodynamic Mobile Robot Motion Planning},
+  author = {Hönig, Wolfgang and Ortiz-Haro, Joaquim and Marc, Toussaint},
+  year = {2022},
+  booktitle = {Motion planning workshop, in IROS},
+  pdf = {https://motion-planning-workshop.kavrakilab.org/papers/kinodynamic-motion-planning-benchmark.pdf}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li>
+<li><style>ol.bibliography li { list-style: none }</style>
+
+<script>
+function myFunction(input) {
+  var x = document.getElementById(input);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<style>
+details > summary {
+  padding: .5em .75em;
+  width: 7em;
+  cursor: pointer;
+}
+
+details > p {
+  padding: .5em .75em;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: .8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+details > pre {
+  font-size: .8rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+}
+
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #386e7e;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0076df
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.extra {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+.gfg {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:.95em;background-color:#D3D3D3;color:black;
+}
+
+ 
+
+
+</style>
+
+
+<!-- <div class="text-justify"> -->
+<!--     <span id="rehberg2023comparison">Rehberg, W., Ortiz-Haro, J., Toussaint, M., &amp; Hönig, W. (2023). <i>Comparison of Optimization-Based Methods for Energy-Optimal Quadrotor Motion Planning</i>.</span> -->
+<!-- </div> -->
+
+<!-- title --> 
+<!-- <div class="title">  Comparison of Optimization-Based Methods for Energy-Optimal Quadrotor Motion Planning</div> -->
+
+<div>
+
+<div class="title">  
+    
+    <!-- <span  style="margin-right:0.5rem" > -->
+      <a href="https://arxiv.org/abs/2304.14062"> Comparison of Optimization-Based Methods for Energy-Optimal Quadrotor Motion Planning </a>
+    <!-- </span> -->
+    
+</div>
+
+<!-- authors --> Welf Rehberg,  Joaquim Ortiz-Haro,  Marc Toussaint,  and Wolfgang Hönig.  
+
+<!-- how published -->        2023. 
+
+
+
+
+
+
+<!-- <div> -->
+    <!--  -->
+    <!-- <!-1- <span  style="margin-right:0.5rem" > -1-> -->
+    <!--   <a href="https://arxiv.org/abs/2304.14062">PDF</a> -->
+    <!-- <!-1- </span> -1-> -->
+    <!--  -->
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+
+
+ 
+| <button onclick="myFunction('rehberg2023comparison_bibtex')">BIBTEX</button>
+
+ 
+
+
+<div id="rehberg2023comparison_bibtex" style="display: none">
+  <pre class="gfg">@misc{rehberg2023comparison,
+  title = {Comparison of Optimization-Based Methods for Energy-Optimal Quadrotor Motion Planning},
+  author = {Rehberg, Welf and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  year = {2023},
+  eprint = {2304.14062},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2304.14062}
+}
+</pre>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div> -->
+<!--      -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- <details> -->
+<!--   <summary>Bibtex</summary> -->
+<!--   <pre>@misc{rehberg2023comparison,
+  title = {Comparison of Optimization-Based Methods for Energy-Optimal Quadrotor Motion Planning},
+  author = {Rehberg, Welf and Ortiz-Haro, Joaquim and Toussaint, Marc and Hönig, Wolfgang},
+  year = {2023},
+  eprint = {2304.14062},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  pdf = {https://arxiv.org/abs/2304.14062}
+}
+</pre> -->
+<!-- </details> -->
+<!-- </div> -->
+
+
+
+<br />
+
+
+
+
+</li></ol>
+
+<h2 id="student-supervision">Student Supervision</h2>
+
+<ol class="bibliography">
+
+<li>
+<div class="title">Efficient Kinodynamic Motion Planning with Reinforcement Learning Policies</div>
+Alexander Weingart. Co-supervision: Joaquim Ortiz-Haro and Wolfgang Hoenig. Master Thesis Computer Science (TU-Berlin).
+2023.
+</li>
+<br />
+
+<li>
+<div class="title">Neural Scene Representations for Sequential Reasoning  </div>
+Phillip Groete. Co-supervision: Joaquim Ortiz-Haro and Ozgur Oguz. Master Thesis Computer Science (TU-Berlin).
+2023.
+</li>
+<br />
+
+<li>
+<div class="title"> SCP and k-Order Motion Optimization for Cooperative Multirotor Teams </div>
+Welf Rehberg. Co-supervision: Joaquim Ortiz-Haro and Wolfgang Hoenig. Master Thesis Computer Science (TU-Berlin). 2022.
+</li>
+<br />
+
+<li>
+<div class="title">Combining Sampling and Optimization for Optimal Motion Planning</div>
+Jay Kamat. Co-supervision: Joaquim Ortiz-Haro and Andreas Orthey. Master Thesis Mathematics (BITS and TU-Berlin). 2022.
+</li>
+<br />
+
+<li>
+<div class="title"> Constrained Sampling - A Study on Methods for Sampling from Constraint Manifolds</div>
+Philip Oedi. Co-supervision: Joaquim Ortiz-Haro and Jung-Su Ha. Master Thesis Computer Science (TU-Berlin). 2022.
+</li>
+<br />
+
+</ol>
+
+<h2 id="teaching">Teaching</h2>
+
+<ol class="bibliography">
+
+<li>
+<div class="title">AI &amp; Robotics: Lab Course</div>
+M.Sc. Computer Science TU-Berlin.
+Teacher Assitant. 
+Summer Semester 2022.
+</li>
+<br />
+
+
+<li>
+<div class="title"> Optimization Algorithms</div>
+M.Sc. Computer Science TU-Berlin.
+Teacher Assistant.
+Winter Semester 2020 and 2021.
+</li>
+<br />
+
+
+<li>
+<div class="title"> Calculus II</div>
+B.Sc. Industrial (mechanical) Engineering. UPC Barcelona (ETSEIB). Teacher in Aula LLiure. 
+Summer Semester 2015, 2016 and 2017.
+</li>
+<br />
+
+
+<li>
+<div class="title">Calculus I</div>
+B.Sc. Industrial (mechanical) Engineering. UPC Barcelona (ETSEIB). Teacher in Aula LLiure.
+Winter Semester 2015.
+</li>
+<br />
+
+</ol>
+
+
+  </article>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Build with <a href="https://jekyllrb.com/"> Jekyll </a>, based on <a href="https://github.com/johno/pixyll">Pixyll</a>. Source code in <a href="https://github.com/quimortiz/quimortiz.github.io">GitHub</a>.
+    </small>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js")
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="zEfIF-swgTIm8OQxN7S7WtQPeCmkE01-O92WQOx5WYs" />
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning &#8211; Joaquim Ortiz-Haro</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics">
+    <link rel="manifest" type="application/manifest+json; charset=utf-8" href="/manifest.json" />
+    <meta name="robots" content="all">
+    <meta name="author" content="Joaquim Ortiz-Haro">
+    
+    
+    <link rel="canonical" href="/idbastar/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Joaquim Ortiz-Haro" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202408081712" type="text/css">
+
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+
+
+
+
+
+
+
+    
+
+    <!-- MathJax -->
+      <!--
+    <script type="text/javascript" async
+        src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    -->
+
+
+    
+
+      <!-- Ref: https://quuxplusone.github.io/blog/2020/08/19/mathjax-v3-in-jekyll/ -->
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  },
+  chtml: {
+            scale: 1.0
+        },
+        svg: {
+            scale: 1.0
+        },
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      const Macro = MathJax._.input.tex.Symbol.Macro;
+      const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+      const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+      const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+      MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+    }
+  }
+};
+</script>
+
+
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+
+  
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning">
+    <meta property="og:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics">
+    <meta property="og:url" content="/idbastar/">
+    <meta property="og:site_name" content="Joaquim Ortiz-Haro">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning" />
+    <meta name="twitter:description" content="Personal website of Joaquim Ortiz-Haro, PhD student in Robotics" />
+    <meta name="twitter:url" content="/idbastar/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <!-- <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title">Joaquim Ortiz-Haro</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a class="nav-link" href="/Research/">Research</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/CV/">CV</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+ -->
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2">iDb-A*: Iterative Search and Optimization for Optimal Kinodynamic Motion Planning</h1>
+  </header>
+  <article class="post-content">
+  <style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+</style>
+
+<p><a href="https://quimortiz.github.io/">Joaquim Ortiz-Haro</a>, <a href="https://whoenig.github.io/">Wolfgang Honig</a>, <a href="https://vhartmann.com/">Valentin Hartmann</a>, and <a href="https://www.user.tu-berlin.de/mtoussai/">Marc Toussaint</a></p>
+
+<p><strong>Back to personal webpage</strong>: <a href="/Research/">here</a></p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>Iterative Discontinuity Bounded A* (iDb-A*) is a new kinodynamic motion planner that combines search and optimization in an iterative way. It is asymptotically optimal and faster than state-of-the-art motion planners in a wide range of problems with car-like and flying robots.</p>
+
+<h2 id="paper">Paper</h2>
+
+<p><a href="https://arxiv.org/abs/2311.03553"><img src="/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
+  <span style=""> Journal Version – Preprint submitted to IEEE Transactions on Robotics (T-RO) in November  2023 (Recommended)</span></p>
+
+<p><a href="https://arxiv.org/abs/2203.11108"><img src="/images/pdf-svgrepo-com.svg" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
+  <span style=""> Conference Paper (IROS 2022) </span></p>
+
+<h2 id="code">Code</h2>
+
+<div>
+ <a href="https://github.com/quimortiz/dynoplan"><img src="/images/github.svg" alt="My Happy SVG" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
+  <span style=""> Dynoplan <img class="emoji" title=":t-rex:" alt=":t-rex:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f996.png" height="20" width="20"></span>
+</div>
+
+<p><img src="/assets/example1.png" class="center"></p>
+
+<div>
+ <a href="https://github.com/quimortiz/dynobench"><img src="/images/github.svg" alt="My Happy SVG" style="max-width: 3%; height:auto;  vertical-align:middle   "></a>
+  <span style=""> Dynobench <img class="emoji" title=":t-rex:" alt=":t-rex:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f996.png" height="20" width="20"></span>
+</div>
+
+<p><img src="/assets/dynobench.png" class="center" style="width: 40%"></p>
+
+<h2 id="supplementary-video">Supplementary Video</h2>
+
+<iframe width="300" height="400" class="center" src="https://www.youtube.com/embed/tGuPuihXSbg" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Motion planning for robotic systems with complex dynamics is a challenging problem.
+While recent sample-based algorithms achieve asymptotic optimality by propagating random control inputs, their empirical convergence rate is poor, specially in high-dimensional systems such as multirotors.
+An alternative approach is to first plan with a simplified geometric model and then use trajectory optimization to follow the geometric path while accounting for the true dynamics.
+This approach is incomplete, often failing to produce valid motion plans, and requires in-depth knowledge of each dynamical system.</p>
+
+<p>In this paper, we present Iterative Discontinuity Bounded A* (iDb-A*), a new kinodynamic motion planner that combines search and optimization in an iterative way.
+The search step uses a finite set of short trajectories (motion primitives) that are connected while allowing a bounded discontinuity, and the optimization step locally repairs the discontinuities with trajectory optimization.
+By iteratively reducing the allowed discontinuity and adding more motion primitives, our algorithm achieves asymptotic optimality with a very good any-time behaviour.
+We provide a benchmark of 43 problems with 8 different dynamical systems, including different versions of unicycles and multirotors.
+Compared to the state-of-the-art, iDb-A* consistently solves more problem instances and finds lower-cost solutions faster.</p>
+
+<h2 id="dynobench-t-rex">Dynobench <img class="emoji" title=":t-rex:" alt=":t-rex:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f996.png" height="20" width="20">
+</h2>
+
+<p>Dynobench 🦖 is a universal benchmark for kinodynamic motion planning. Develop, combine and compare different methods, from trajectory optimization and sample based motion planning to supervised and reinforcement learning. We currently support 8 dynamical Systems, and a total of 43  problems! (more to come!)</p>
+
+<h2 id="dynoplan-t-rex">Dynoplan <img class="emoji" title=":t-rex:" alt=":t-rex:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f996.png" height="20" width="20">
+</h2>
+
+<p>Dynoplan is a small library for solving kinodynamic motion planning problems, as defined in Dynobench <img class="emoji" title=":t-rex:" alt=":t-rex:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f996.png" height="20" width="20">. It implements 3 different algorithms: Trajectory Optimization with geometric initial guess , Sample based Motion Planning, and Iterative Search and Optimization (iDb-A*).</p>
+
+<h2 id="motion-primitives">Motion Primitives</h2>
+
+<p>All the motion primitives are available in Github and Google Drive (check instructions in <a href="https://github.com/quimortiz/dynobench">Dynobench</a>)</p>
+
+<p><img src="/images/primitives-quad2dpole.png" class="center">
+<img src="/images/primitives-unicycle1.png" class="center">
+<img src="/images/primitives-acrobot.png" class="center"></p>
+
+<h2 id="extended-results">Extended results</h2>
+
+<p>We compare iDb-A* against SST* (sample-based optimal kynodynamic motion planner) and RRT* -TO (Combination of Asymptotically Optimal Geometric Planner with Trajectory Optimization). Check our paper 
+for full results and discussion. These results can be reproduced using our code <a href="https://github.com/quimortiz/dynoplan">Dynoplan</a></p>
+
+<h3 id="benchmark">Benchmark</h3>
+
+<p><img src="/assets/merged_2023-11-06--21-03-18.tex.nice.tex.pdf-1.png" class="center"></p>
+
+<h3 id="trajectory-optimization-with-free-terminal-time">Trajectory Optimization with Free Terminal Time</h3>
+
+<p><img src="/assets/summary_timeopt_2023-11-06--09-50-56.tex.pdf-1.png" class="center"></p>
+
+<h3 id="heuristic-functions">Heuristic Functions</h3>
+
+<p><img src="/assets/summary_search_2023-11-06--09-39-23.tex.pdf.png-1.png" class="center"></p>
+
+<h3 id="analysis-of-underlying-optimization-algorithm-single-vs-multiple-shooting">Analysis of Underlying Optimization Algorithm (Single vs Multiple Shooting)</h3>
+
+<p>We repeat the benchmark using a multiple shooting formulation and Sequential Quadratic Programming for the trajectory optimization step of iDb-A* (instead of Differential Dynamic Programming). The suffix “-m” indicates that we use a multiple shooting solver instead of Differential Dynamic Programming. This benchmark was run on an Intel i9-14900KF CPU.</p>
+
+<p><a href="./assets/tro_new/merged_2024-08-07--15-47-40.tex.nice.tex.pdf">Link to PDF</a></p>
+
+<!--<img src="/assets/tro_new/merged_2024-08-06--14-15-05.tex.nice.tex.pdf-1.png" class="center"/>-->
+
+<h3 id="convergence-plots-for-all-problems">Convergence Plots for all Problems</h3>
+
+<p>We provide the convergence plots for all problems, which display the median of the cost and success rate over 20 runs, with a 95% confidence interval, which provides a clear view of the variance of the different algorithms. This results correspond to the table shown above (Intel i9-14900KF CPU).</p>
+
+<p><a href="./assets/tro_new/plot_2024-08-07--15-49-11.pdf">Link to PDF</a>.</p>
+
+  </article>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Build with <a href="https://jekyllrb.com/"> Jekyll </a>, based on <a href="https://github.com/johno/pixyll">Pixyll</a>. Source code in <a href="https://github.com/quimortiz/quimortiz.github.io">GitHub</a>.
+    </small>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js")
+    }
+</script>
+
+</body>
+</html>
