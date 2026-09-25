@@ -4,6 +4,8 @@ layout: default
 
 Hi, I am a Research Scientist at Helsing AI (formerly Keybotic) in Barcelona, where I work on deep reinforcement learning for robotic locomotion. Previously, I was a Postdoctoral Researcher in Robotics at New York University (NYU) in the Machines in Motion Laboratory, supervised by Prof. Ludovic Righetti. My research interests include locomotion, task and motion planning, control, and deep learning for robotics. I received my PhD in Robotics from TU Berlin, supervised by Prof. Marc Toussaint.
 
+*Last updated: September 2026.*
+
 Email: quimortiz21 (at) gmail (dot) com
 
 [Google Scholar](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao) &middot; [CV (PDF)](/assets/cv.pdf)
