@@ -1,53 +1,26 @@
 ---
 layout: null
 ---
-var CACHE_NAME = "pixyll2";
-
-self.addEventListener("install", function(e) {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
-      return cache.addAll([
-        "{{ '/css/pixyll.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
-        "{{ '/' | relative_url }}"
-      ]);
-    })
-  );
+// This service worker used to cache-first the homepage, which caused
+// visitors to see stale content indefinitely. It now unregisters itself
+// and clears its caches so the site falls back to normal HTTP caching.
+self.addEventListener("install", function (e) {
+  self.skipWaiting();
 });
 
-self.addEventListener("activate", function(e) {
+self.addEventListener("activate", function (e) {
   e.waitUntil(
-    caches.keys().then(function(names) {
-      return Promise.all(
-        names.map(function(name) {
-          if (name != CACHE_NAME) {
-            return caches.delete(name);
-          }
-        })
-      );
-    })
-  );
-  return clients.claim();
-});
-
-addEventListener("fetch", function(e) {
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-        return response || fetch(e.request).then(function(response) {
-        var clonedResponse = response.clone();
-        var hosts = [
-          "https://fonts.googleapis.com",
-          "https://fonts.gstatic.com",
-          "https://maxcdn.bootstrapcdn.com",
-          "https://cdnjs.cloudflare.com"
-        ];
-        hosts.map(function(host) {
-          if (e.request.url.indexOf(host) === 0) {
-            caches.open(CACHE_NAME).then(function(cache) {
-              cache.put(e.request, clonedResponse);
-            });
-          }
-        });
-        return response;
+    caches.keys().then(function (names) {
+      return Promise.all(names.map(function (name) {
+        return caches.delete(name);
+      }));
+    }).then(function () {
+      return self.registration.unregister();
+    }).then(function () {
+      return self.clients.matchAll({ type: "window" });
+    }).then(function (clientsList) {
+      clientsList.forEach(function (client) {
+        client.navigate(client.url);
       });
     })
   );
