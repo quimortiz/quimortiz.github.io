@@ -6,6 +6,8 @@ I am a Research Scientist at Helsing AI (formerly Keybotic) in Barcelona, where 
 
 Email: quimortiz21 (at) gmail (dot) com
 
+[Google Scholar](https://scholar.google.com/citations?user=ODdBJAcAAAAJ&hl=ca&oi=ao) &middot; [CV (PDF)](/assets/cv.pdf)
+
 ## News
 
 

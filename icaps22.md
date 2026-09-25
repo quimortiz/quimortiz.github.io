@@ -8,7 +8,7 @@ Joaquim Ortiz de Haro, Erez Karpas, Marc Toussaint and Michael Katz.
 
 International Conference on Automated Planning and Scheduling (ICAPS) 2022
 
-**Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
+**Back to personal webpage**: <a href="{{ site.baseurl }}{% link index.md %}">here</a>
 
 
 

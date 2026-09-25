@@ -20,7 +20,7 @@ permalink: /idbastar/
 [Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/), and [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
 
 
-**Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
+**Back to personal webpage**: <a href="{{ site.baseurl }}{% link index.md %}">here</a>
 
 
 ## TL;DR

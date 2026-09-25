@@ -22,7 +22,7 @@ permalink: /idbrrt/
 [Joaquim Ortiz-Haro](https://quimortiz.github.io/), [Wolfgang Honig](https://whoenig.github.io/), [Valentin Hartmann](https://vhartmann.com/), [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/), and [Ludovic Righetti](https://engineering.nyu.edu/faculty/ludovic-righetti)
 
 
-**Back to personal webpage**: <a href="{{ site.baseurl }}{% link research.md %}">here</a>
+**Back to personal webpage**: <a href="{{ site.baseurl }}{% link index.md %}">here</a>
 
 <a href="https://arxiv.org/abs/2403.10745"> Preprint</a>
 

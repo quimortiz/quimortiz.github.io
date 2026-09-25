@@ -7,9 +7,7 @@ baseurl:
 url:         
 date_format: "%b %-d, %Y"
 header_pages:
- - research.md
  # - blog/index.html
- - cv.md
 # - about.md
 # - contact.html
 
