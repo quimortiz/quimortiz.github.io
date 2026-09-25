@@ -1,6 +1,3 @@
----
-layout: null
----
 // This service worker used to cache-first the homepage, which caused
 // visitors to see stale content indefinitely. It now unregisters itself
 // and clears its caches so the site falls back to normal HTTP caching.
