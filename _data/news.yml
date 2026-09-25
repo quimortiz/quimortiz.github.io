@@ -1,13 +1,30 @@
 news:
 
+  - what: Back from ICRA Vienna. Happy to have presented the poster of my paper "<a href="https://arxiv.org/abs/2511.03077">World Planner</a>", and to have shown the robot RX-1 at Helsing's stand, which received a lot of attention from our colleagues.
+    when: 07/2026
+
+  - what: We unveiled our quadruped robot <a href="https://www.youtube.com/watch?v=O6Zgn7KIXCc">RX-1</a>, which will serve as a research platform for robotics in Europe. Check out the <a href="https://helsing.ai/newsroom/helsing-unveils-area-9-and-launches-rx-1-its-first-european-robotics-research-platform">press release</a>.
+    when: 06/2026
+
+  - what: Keybotic has been acquired by Helsing AI, a European technology and defense company. I am working as an AI Research Scientist, developing the next-generation robots with the former Keybotic team.
+    when: 05/2026
+
+  - what: Yes, you can plan with Visual World Models! New <a href="https://arxiv.org/abs/2511.03077">paper</a> accepted to ICRA. Joint co-authorship  with R. Khorrambakht. Happy to share the main project from my postdoc at New York University.
+    when: 01/2026
+
+  - what: "Journal paper published at IEEE Transactions on Robotics (TRO)! <a href='https://ieeexplore.ieee.org/abstract/document/11268974'>db-ECBS: Interaction-Aware Multirobot Kinodynamic Motion Planning</a>."
+    when: 12/2025
+
+  - what: I joined Keybotic, a robotics startup in Barcelona. Now I work on reinforcement learning for robot locomotion in a small, interdisciplinary team.
+    when: 01/2025
+
   - what: Three papers presented at ICRA 2024 in Japan! <a href="https://arxiv.org/abs/2309.16445">Mulit-robot motion planning</a>, <a href="https://www.user.tu-berlin.de/mtoussai/24-CompletionTrees/">Effort Level Search</a> and <a href="https://arxiv.org/abs/2405.02053"> Solving Manipulation Puzzles</a>.
     when: 05/2024
 
   - what: Moved to New York to work as a postdoc researcher in the Machines in Motion Laboratory at New York University, led by Professor Ludovic Righetti.
-
     when: 02/2024
 
-  - what: "I successfully defended my PhD and obtained the maximum qualification! Big thanks to my supervisor Marc Toussaint (TU Berlin) and the doctoral committee: Tomas Lozano-Perez (MIT), and Georg Martius (Uni Tübingen)."
+  - what: "I successfully defended my PhD and obtained the maximum qualification! Big thanks to my supervisor Marc Toussaint (TU Berlin) and the doctoral committee: Tomas Lozano-Perez (MIT), and Georg Martius (Uni Tübingen). Check out my <a href='/assets/phd_thesis.pdf'>thesis</a> and the <a href='/assets/phd_slides.pdf'>slides</a>."
     when: 01/2024
 
   - what: New journal submission! Fast and optimal kinodynamic motion planning with iterative search and trajectory optimization. <a href="https://arxiv.org/abs/2311.03553"> Preprint </a>,<a href="https://www.youtube.com/watch?v=tGuPuihXSbg"> video</a>, and <a href="https://github.com/quimortiz/dynoplan"> code</a>. 
